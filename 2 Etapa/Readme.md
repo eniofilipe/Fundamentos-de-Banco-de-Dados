@@ -4,23 +4,23 @@ Nessa etapa, mapeamos o Diagrama Entidade-Relacionamento Estendido, construído 
 
 Utilizando metodologia proposta pelo professor Lúcio, que constitui em 7 passos de mapeamento:
 
-### Passo 1 - Conjunto de Entidades
+1. Conjunto de Entidades
 
-### Passo 2 - Conjunto de Entidades Fracas
+2. Conjunto de Entidades Fracas
 
-#### Passo 2a - Conjunto Abstrações de Generalização
+   2.1 Conjunto Abstrações de Generalização
 
-#### Passo 2b - Conjunto Abstrações de Agregação
+   2.2 Conjunto Abstrações de Agregação
 
-### Passo 3 - Conjunto de Relacionamentos binários 1:1
+3. Conjunto de Relacionamentos binários 1:1
 
-### Passo 4 - Conjunto de Relacionamentos binários 1:N
+4. Conjunto de Relacionamentos binários 1:N
 
-### Passo 5 - Conjunto de Relacionamentos binários M:N
+5. Conjunto de Relacionamentos binários M:N
 
-### Passo 6 - Conjunto de Relacionamentos >2
+6. Conjunto de Relacionamentos >2
 
-### Passo 3 - Atributos Multivalorados
+7. Atributos Multivalorados
 
 <hr/>
 
@@ -77,28 +77,77 @@ dasasdasd
 
 <u>Atributos:</u>
 
-<table>
+<table style="border: 1px solid black;">
   <tr>
-    <th scope="col">Nome</th>
-    <th scope="col">Descrição</th>
-    <th scope="col">Tipo e formato</th>
+    <th style="border: 1px solid black;" scope="col">Nome</th>
+    <th style="border: 1px solid black;" scope="col">Descrição</th>
+    <th style="border: 1px solid black;" scope="col">Tipo e formato</th>
+    </tr>
+  <tr >
+    <td style="border: 1px solid black;" >Nome Atributo</td>
+    <td style="border: 1px solid black;">Descricao</td>
+    <td style="border: 1px solid black;">TIPO cada descricao</td>
   </tr>
-<tr>
-  <td>Nome Atributo</td>
-  <td>Descricao</td>
-  <td>TIPO cada descricao</td>
-</tr>
-<tr>
-  <td>Nome Atributo</td>
-  <td>Descricao</td>
-  <td>TIPO cada descricao</td>
-</tr>
-<tr>
-  <td>Nome Atributo</td>
-  <td>Descricao</td>
-  <td>TIPO cada descricao</td>
-</tr>
+    <tr >
+    <td style="border: 1px solid black;" >Nome Atributo</td>
+    <td style="border: 1px solid black;">Descricao</td>
+    <td style="border: 1px solid black;">TIPO cada descricao</td>
+  </tr>
+    <tr >
+    <td style="border: 1px solid black;" >Nome Atributo</td>
+    <td style="border: 1px solid black;">Descricao</td>
+    <td style="border: 1px solid black;">TIPO cada descricao</td>
+  </tr>
 </table>
+
+## 2 - Conjunto de Relacionamentos
+
+### 2.1 - Relacionamento
+
+<u>Descrição:</u> Loairoaisjdokasdkjalskjdalksjdalksjdlaksjdlaksjdlakslaksjdlaksjdlaksjdlaksjdlaksjdlaksjdalksdjalksjdalksjd
+askaposdasd
+asjkdasda
+sdjasd
+asjdas
+dasasdasd
+
+<u>Atributos:</u>
+
+<table style="border: 1px solid black;">
+  <tr>
+    <th style="border: 1px solid black;" scope="col">Nome</th>
+    <th style="border: 1px solid black;" scope="col">Descrição</th>
+    <th style="border: 1px solid black;" scope="col">Tipo e formato</th>
+    </tr>
+  <tr >
+    <td style="border: 1px solid black;" >Nome Atributo</td>
+    <td style="border: 1px solid black;">Descricao</td>
+    <td style="border: 1px solid black;">TIPO cada descricao</td>
+  </tr>
+    <tr >
+    <td style="border: 1px solid black;" >Nome Atributo</td>
+    <td style="border: 1px solid black;">Descricao</td>
+    <td style="border: 1px solid black;">TIPO cada descricao</td>
+  </tr>
+    <tr >
+    <td style="border: 1px solid black;" >Nome Atributo</td>
+    <td style="border: 1px solid black;">Descricao</td>
+    <td style="border: 1px solid black;">TIPO cada descricao</td>
+  </tr>
+</table>
+
+### 2.2 - Relacionamento 2
+
+<u>Descrição:</u>
+Loairoaisjdokasdkj alskjdalksjdalksjd laksjdlaksjdlakslaksjdla ksjdlaksjdlaksj dlaksjdlaks jdalksd jalksjdalksjd
+askaposdasd
+asjkdasda
+sdjasd
+asjdas
+dasasdasd
+
+<u>Atributos:</u>
+Sem Atributos específicos
 
 <br/>
 
