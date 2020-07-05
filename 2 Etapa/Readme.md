@@ -43,35 +43,27 @@ dasasdasd
 
 <u>Atributos:</u>
 
-<style>
-
-table, th, td {
-  border: 1px solid black;
-}
-
-</style>
-
-<table>
+<table style="border: 1px solid black;">
   <tr>
-    <th scope="col">Nome</th>
-    <th scope="col">Descrição</th>
-    <th scope="col">Tipo e formato</th>
+    <th style="border: 1px solid black;" scope="col">Nome</th>
+    <th style="border: 1px solid black;" scope="col">Descrição</th>
+    <th style="border: 1px solid black;" scope="col">Tipo e formato</th>
+    </tr>
+  <tr >
+    <td style="border: 1px solid black;" >Nome Atributo</td>
+    <td style="border: 1px solid black;">Descricao</td>
+    <td style="border: 1px solid black;">TIPO cada descricao</td>
   </tr>
-<tr>
-  <td>Nome Atributo</td>
-  <td>Descricao</td>
-  <td>TIPO cada descricao</td>
-</tr>
-<tr>
-  <td>Nome Atributo</td>
-  <td>Descricao</td>
-  <td>TIPO cada descricao</td>
-</tr>
-<tr>
-  <td>Nome Atributo</td>
-  <td>Descricao</td>
-  <td>TIPO cada descricao</td>
-</tr>
+    <tr >
+    <td style="border: 1px solid black;" >Nome Atributo</td>
+    <td style="border: 1px solid black;">Descricao</td>
+    <td style="border: 1px solid black;">TIPO cada descricao</td>
+  </tr>
+    <tr >
+    <td style="border: 1px solid black;" >Nome Atributo</td>
+    <td style="border: 1px solid black;">Descricao</td>
+    <td style="border: 1px solid black;">TIPO cada descricao</td>
+  </tr>
 </table>
 
 ### 1.2 - Entidade 2
@@ -84,8 +76,6 @@ asjdas
 dasasdasd
 
 <u>Atributos:</u>
-
-</style>
 
 <table>
   <tr>
