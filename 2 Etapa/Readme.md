@@ -85,12 +85,6 @@ dasasdasd
 
 <u>Atributos:</u>
 
-<style>
-
-table, th, td {
-  border: 1px solid black;
-}
-
 </style>
 
 <table>
@@ -122,4 +116,5 @@ table, th, td {
 
 ## Mapeamento final em modelo relacional
 
-![Mapeamento PNG](Final_10.png)
+![Mapeamento SVG](Final_10.drawio.svg)
+<img src="Final_10.svg"/>
