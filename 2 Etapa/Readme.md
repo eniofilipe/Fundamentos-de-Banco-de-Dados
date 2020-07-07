@@ -633,6 +633,25 @@ Sem Atributos específicos.
 
 <hr/>
 
-## Mapeamento final em modelo relacional
+## 3 - DER Corrigido
 
-<img src="Final_10.svg"/>
+<img class="mapeamento-final" src="DER_Corrigido.png"/>
+
+## 4 - Mapeamento final em modelo relacional
+
+<img class="mapeamento-final" src="Final_10.svg"/>
+
+### 4.1 - Algumas considerações sobre o mapeamento
+
+#### 4.1.1 - Mapeamento da Abstração de Generalização da entidade Pedido
+
+Foi escolhido o procedimento padrão 4, pois os são poucos os atributos das Entidades Específicas que também não têm relacionamentos específicos. Sendo identificadas pelo atributo "MERCADO".
+
+#### 4.1.2 - Mapeamento do Atributo Multivalorado IDIOMA
+
+Como não é conhecido a composição desse atributo, podendo ele ser diversos, foi escolhido mapear para
+uma relação específica, sendo identificada pelo valor do atributo idioma e da chave da descrição que faz parte.
+
+#### 4.1.3 - Mapeamento do Atributo Composto NOME
+
+Como é conhecida a composição do atributo, escolheu - se inserir os atributos da sua composição à entidade Cliente.
