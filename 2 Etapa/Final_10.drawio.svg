@@ -1,706 +1,1405 @@
-<mxfile host="" modified="2020-07-05T13:27:02.640Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.45.1 Chrome/78.0.3904.130 Electron/7.2.4 Safari/537.36" etag="FtsnVweKXdz_QYvjU91f" version="13.1.3">
-    <diagram id="6hGFLwfOUW9BJ-s0fimq" name="Page-1">
-        <mxGraphModel dx="2216" dy="1696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
-            <root>
-                <mxCell id="0"/>
-                <mxCell id="1" parent="0"/>
-                <mxCell id="231" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;curved=1;" parent="1" source="223" target="112" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="232" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="225" target="124" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="238" value="&lt;span style=&quot;font-size: 36px&quot;&gt;MAPEAMENTO FINAL 1.0&amp;nbsp;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-                    <mxGeometry x="1095" y="20" width="450" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="259" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="257" target="14" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="285" value="SEGUE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="259" vertex="1" connectable="0">
-                    <mxGeometry x="0.3854" y="5" relative="1" as="geometry">
-                        <mxPoint as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="269" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="263" target="47" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="281" value="ENVIA" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="269" vertex="1" connectable="0">
-                    <mxGeometry x="0.5437" y="31" relative="1" as="geometry">
-                        <mxPoint as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="270" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="267" target="212" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="282" value="PARTICIPA" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="270" vertex="1" connectable="0">
-                    <mxGeometry x="0.3957" y="-5" relative="1" as="geometry">
-                        <mxPoint as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="273" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="271" target="102" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="280" value="FAZ&lt;br&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="273" vertex="1" connectable="0">
-                    <mxGeometry x="0.5224" y="19" relative="1" as="geometry">
-                        <mxPoint as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="278" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="274" target="91" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="283" value="ENTREGA" style="edgeLabel;html=1;align=right;verticalAlign=bottom;resizable=0;points=[];" parent="278" vertex="1" connectable="0">
-                    <mxGeometry x="-0.5881" y="22" relative="1" as="geometry">
-                        <mxPoint as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="279" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="276" target="91" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="284" value="COBRANCA" style="edgeLabel;html=1;align=center;verticalAlign=top;resizable=0;points=[];" parent="279" vertex="1" connectable="0">
-                    <mxGeometry x="-0.6616" y="14" relative="1" as="geometry">
-                        <mxPoint as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="90" value="ENDERECO" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#76608a;strokeColor=#432D57;swimlaneFillColor=none;fontColor=#ffffff;" parent="1" vertex="1">
-                    <mxGeometry x="1270" y="734" width="160" height="222" as="geometry"/>
-                </mxCell>
-                <mxCell id="91" value="COD" style="shape=partialRectangle;top=0;left=0;right=0;bottom=1;align=left;verticalAlign=middle;fillColor=#e1d5e7;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontStyle=5;fontSize=12;strokeColor=#9673a6;" parent="90" vertex="1">
-                    <mxGeometry y="26" width="160" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="92" value="PK" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="91" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="93" value="RUA NOT_NULL" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="90" vertex="1">
-                    <mxGeometry y="56" width="160" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="94" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="93" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="95" value="NUMERO NOT_NULL" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="90" vertex="1">
-                    <mxGeometry y="82" width="160" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="96" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="95" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="97" value="CIDADE NOT_NULL" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="90" vertex="1">
-                    <mxGeometry y="108" width="160" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="98" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="97" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="156" value="ESTADO NOT_NULL" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="90" vertex="1">
-                    <mxGeometry y="134" width="160" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="157" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="156" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="158" value="PAIS NOT_NULL" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="90" vertex="1">
-                    <mxGeometry y="160" width="160" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="159" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="158" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="160" value="CEP NOT_NULL" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="90" vertex="1">
-                    <mxGeometry y="186" width="160" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="161" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="160" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="99" value="" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="90" vertex="1">
-                    <mxGeometry y="212" width="160" height="10" as="geometry"/>
-                </mxCell>
-                <mxCell id="100" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="99" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="10" as="geometry"/>
-                </mxCell>
-                <mxCell id="289" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="287" target="113" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="290" value="TEM" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="289" vertex="1" connectable="0">
-                    <mxGeometry x="0.1972" y="-4" relative="1" as="geometry">
-                        <mxPoint as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="308" value="CLIENTE_TEM_ENDERECO" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#76608a;strokeColor=#432D57;swimlaneFillColor=none;fontColor=#ffffff;" parent="1" vertex="1">
-                    <mxGeometry x="1530" y="620" width="200" height="88" as="geometry"/>
-                </mxCell>
-                <mxCell id="317" value="" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="308" vertex="1">
-                    <mxGeometry y="26" width="200" height="10" as="geometry"/>
-                </mxCell>
-                <mxCell id="318" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="317" vertex="1" connectable="0">
-                    <mxGeometry width="50" height="10" as="geometry"/>
-                </mxCell>
-                <mxCell id="319" value="COD_CLIENTE" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=#f8cecc;spacingLeft=54;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;strokeColor=#b85450;fontStyle=4" parent="308" vertex="1">
-                    <mxGeometry y="36" width="200" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="320" value="PK,FK" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="319" vertex="1" connectable="0">
-                    <mxGeometry width="50" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="321" value="COD_ENDERECO" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=#f8cecc;spacingLeft=54;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;strokeColor=#b85450;fontStyle=4" parent="308" vertex="1">
-                    <mxGeometry y="62" width="200" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="322" value="PK,FK" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="321" vertex="1" connectable="0">
-                    <mxGeometry width="50" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="323" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="319" target="102" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="324" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="321" target="91" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="183" value="PEDIDO" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#76608a;strokeColor=#432D57;swimlaneFillColor=none;fontColor=#ffffff;" parent="1" vertex="1">
-                    <mxGeometry x="840" y="583" width="260" height="482" as="geometry"/>
-                </mxCell>
-                <mxCell id="184" value="COD" style="shape=partialRectangle;top=0;left=0;right=0;bottom=1;align=left;verticalAlign=middle;fillColor=#e1d5e7;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontStyle=5;fontSize=12;strokeColor=#9673a6;" parent="183" vertex="1">
-                    <mxGeometry y="26" width="260" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="185" value="PK" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="184" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="186" value="TOTAL" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="183" vertex="1">
-                    <mxGeometry y="56" width="260" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="187" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="186" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="188" value="IMPOSTO" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="183" vertex="1">
-                    <mxGeometry y="82" width="260" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="189" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="188" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="190" value="CONTA_CLIENTE" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="183" vertex="1">
-                    <mxGeometry y="108" width="260" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="191" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="190" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="192" value="COD_CARTAO&#10;" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="183" vertex="1">
-                    <mxGeometry y="134" width="260" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="193" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="192" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="194" value="COD_TRANSACAO" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="183" vertex="1">
-                    <mxGeometry y="160" width="260" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="195" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="194" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="196" value="DT_EFETIVADO&#10;" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="183" vertex="1">
-                    <mxGeometry y="186" width="260" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="197" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="196" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="198" value="DT_ENVIO" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="183" vertex="1">
-                    <mxGeometry y="212" width="260" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="199" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="198" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="200" value="DT_ENTREGA" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="183" vertex="1">
-                    <mxGeometry y="238" width="260" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="201" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="200" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="204" value="MERCADO NOT_NULL" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="183" vertex="1">
-                    <mxGeometry y="264" width="260" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="205" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="204" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="206" value="DESCONTO_FRETE" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="183" vertex="1">
-                    <mxGeometry y="290" width="260" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="207" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="206" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="208" value="IMPOSTO_EUROPEU&#10;" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="183" vertex="1">
-                    <mxGeometry y="316" width="260" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="209" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="208" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="202" value="" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="183" vertex="1">
-                    <mxGeometry y="342" width="260" height="10" as="geometry"/>
-                </mxCell>
-                <mxCell id="203" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="202" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="10" as="geometry"/>
-                </mxCell>
-                <mxCell id="271" value="COD_CLIENTE NOT_NULL" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=#f8cecc;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;strokeColor=#b85450;" parent="183" vertex="1">
-                    <mxGeometry y="352" width="260" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="272" value="FK" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="271" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="263" value="COD_TRANSPORTADORA NOT_NULL" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=#f8cecc;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;strokeColor=#b85450;" parent="183" vertex="1">
-                    <mxGeometry y="378" width="260" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="264" value="FK" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="263" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="267" value="COD_CONEC_VENDAS" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=#f8cecc;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;strokeColor=#b85450;" parent="183" vertex="1">
-                    <mxGeometry y="404" width="260" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="268" value="FK" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="267" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="274" value="COD_END_ENTREGA NOT_NULL" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=#f8cecc;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;strokeColor=#b85450;" parent="183" vertex="1">
-                    <mxGeometry y="430" width="260" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="275" value="FK" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="274" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="276" value="COD_END_COBRANCA NOT_NULL" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=#f8cecc;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;strokeColor=#b85450;" parent="183" vertex="1">
-                    <mxGeometry y="456" width="260" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="277" value="FK" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="276" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="339" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="325" target="3" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="340" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="328" target="184" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="790" y="420" as="sourcePoint"/>
-                        <Array as="points">
-                            <mxPoint x="800" y="410"/>
-                            <mxPoint x="800" y="624"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="325" value="ITEM" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#76608a;strokeColor=#432D57;swimlaneFillColor=none;fontColor=#ffffff;" parent="1" vertex="1">
-                    <mxGeometry x="1240" y="240" width="200" height="166" as="geometry"/>
-                </mxCell>
-                <mxCell id="326" value="COD_PRODUTO" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=#f8cecc;spacingLeft=54;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;strokeColor=#b85450;fontStyle=4" parent="325" vertex="1">
-                    <mxGeometry y="26" width="200" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="327" value="PK,FK" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="326" vertex="1" connectable="0">
-                    <mxGeometry width="50" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="328" value="COD_PEDIDO" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=#f8cecc;spacingLeft=54;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;strokeColor=#b85450;fontStyle=4" parent="325" vertex="1">
-                    <mxGeometry y="52" width="200" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="329" value="PK,FK" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="328" vertex="1" connectable="0">
-                    <mxGeometry width="50" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="332" value="PRECO_VENDA" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=54;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="325" vertex="1">
-                    <mxGeometry y="78" width="200" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="333" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="332" vertex="1" connectable="0">
-                    <mxGeometry width="50" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="334" value="DESCONTO" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=54;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="325" vertex="1">
-                    <mxGeometry y="104" width="200" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="335" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="334" vertex="1" connectable="0">
-                    <mxGeometry width="50" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="336" value="QUANTIDADE" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=54;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="325" vertex="1">
-                    <mxGeometry y="130" width="200" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="337" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="336" vertex="1" connectable="0">
-                    <mxGeometry width="50" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="330" value="" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="325" vertex="1">
-                    <mxGeometry y="156" width="200" height="10" as="geometry"/>
-                </mxCell>
-                <mxCell id="331" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="330" vertex="1" connectable="0">
-                    <mxGeometry width="50" height="10" as="geometry"/>
-                </mxCell>
-                <mxCell id="2" value="PRODUTO" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#76608a;strokeColor=#432D57;swimlaneFillColor=none;fontColor=#ffffff;" parent="1" vertex="1">
-                    <mxGeometry x="930" y="110" width="210" height="222" as="geometry"/>
-                </mxCell>
-                <mxCell id="3" value="COD" style="shape=partialRectangle;top=0;left=0;right=0;bottom=1;align=left;verticalAlign=middle;fillColor=#e1d5e7;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontStyle=5;fontSize=12;strokeColor=#9673a6;" parent="2" vertex="1">
-                    <mxGeometry y="26" width="210" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="4" value="PK" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="3" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="7" value="NOME NOT_NULL" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="2" vertex="1">
-                    <mxGeometry y="56" width="210" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="8" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="7" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="9" value="PRECO" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="2" vertex="1">
-                    <mxGeometry y="82" width="210" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="10" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="9" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="134" value="CUSTO_PRODUCAO&#10;" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="2" vertex="1">
-                    <mxGeometry y="108" width="210" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="135" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="134" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="140" value="DT_IN_VENDA" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="2" vertex="1">
-                    <mxGeometry y="134" width="210" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="141" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="140" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="5" value="DT_FI_VENDA" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="2" vertex="1">
-                    <mxGeometry y="160" width="210" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="6" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="5" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="11" value="" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="2" vertex="1">
-                    <mxGeometry y="186" width="210" height="10" as="geometry"/>
-                </mxCell>
-                <mxCell id="12" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="11" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="10" as="geometry"/>
-                </mxCell>
-                <mxCell id="257" value="COD_MODELO NOT_NULL" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=#f8cecc;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;strokeColor=#b85450;" parent="2" vertex="1">
-                    <mxGeometry y="196" width="210" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="258" value="FK" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="257" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="35" value="CATEGORIA" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#76608a;strokeColor=#432D57;swimlaneFillColor=none;fontColor=#ffffff;" parent="1" vertex="1">
-                    <mxGeometry x="109.99999999999994" y="110" width="180" height="118" as="geometry"/>
-                </mxCell>
-                <mxCell id="36" value="COD" style="shape=partialRectangle;top=0;left=0;right=0;bottom=1;align=left;verticalAlign=middle;fillColor=#e1d5e7;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontStyle=5;fontSize=12;strokeColor=#9673a6;" parent="35" vertex="1">
-                    <mxGeometry y="26" width="180" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="37" value="PK" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="36" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="38" value="NOME NOT_NULL" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="35" vertex="1">
-                    <mxGeometry y="56" width="180" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="39" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="38" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="44" value="" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="35" vertex="1">
-                    <mxGeometry y="82" width="180" height="10" as="geometry"/>
-                </mxCell>
-                <mxCell id="45" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="44" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="10" as="geometry"/>
-                </mxCell>
-                <mxCell id="262" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="35" source="260" target="36" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="286" value="SUBCATEGORIA" style="edgeLabel;html=1;align=right;verticalAlign=middle;resizable=0;points=[];" parent="262" vertex="1" connectable="0">
-                    <mxGeometry x="0.3346" relative="1" as="geometry">
-                        <mxPoint x="-1" as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="260" value="COD_SUBCATEGORIA" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=#f8cecc;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;strokeColor=#b85450;" parent="35" vertex="1">
-                    <mxGeometry y="92" width="180" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="261" value="FK" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="260" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="348" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="342" target="3" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="349" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="344" target="36" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="341" value="PERTENCE" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#76608a;strokeColor=#432D57;swimlaneFillColor=none;fontColor=#ffffff;" parent="1" vertex="1">
-                    <mxGeometry x="520" y="110" width="200" height="88" as="geometry"/>
-                </mxCell>
-                <mxCell id="342" value="COD_PRODUTO" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=#f8cecc;spacingLeft=54;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;strokeColor=#b85450;fontStyle=4" parent="341" vertex="1">
-                    <mxGeometry y="26" width="200" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="343" value="PK,FK" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="342" vertex="1" connectable="0">
-                    <mxGeometry width="50" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="344" value="COD_CATEGORIA" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=#f8cecc;spacingLeft=54;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;strokeColor=#b85450;fontStyle=4" parent="341" vertex="1">
-                    <mxGeometry y="52" width="200" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="345" value="PK,FK" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="344" vertex="1" connectable="0">
-                    <mxGeometry width="50" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="346" value="" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="341" vertex="1">
-                    <mxGeometry y="78" width="200" height="10" as="geometry"/>
-                </mxCell>
-                <mxCell id="347" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="346" vertex="1" connectable="0">
-                    <mxGeometry width="50" height="10" as="geometry"/>
-                </mxCell>
-                <mxCell id="13" value="MODELO_DESCRICAO" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#76608a;strokeColor=#432D57;swimlaneFillColor=none;fontColor=#ffffff;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="512" y="260" width="210" height="252" as="geometry"/>
-                </mxCell>
-                <mxCell id="14" value="COD" style="shape=partialRectangle;top=0;left=0;right=0;bottom=1;align=left;verticalAlign=middle;fillColor=#e1d5e7;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontStyle=5;fontSize=12;strokeColor=#9673a6;" parent="13" vertex="1">
-                    <mxGeometry y="26" width="210" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="15" value="PK" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="14" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="253" value="" style="group" parent="13" vertex="1" connectable="0">
-                    <mxGeometry y="56" width="210" height="30" as="geometry"/>
-                </mxCell>
-                <object label="COD_DESCRICAO" sdfsdf="" id="254">
-                    <mxCell style="shape=partialRectangle;top=0;left=0;right=0;bottom=1;align=left;verticalAlign=middle;fillColor=#e1d5e7;spacingLeft=34;spacingRight=4;overflow=visible;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontStyle=5;fontSize=12;strokeColor=#000000;labelBorderColor=none;labelBorderTop=1;labelBottom=0;backgroundOutline=0;treeFolding=0;snapToPoint=0;noLabel=0;labelBackgroundColor=none;horizontal=1;shadow=0;comic=0;" parent="253" vertex="1">
-                        <mxGeometry width="210" height="30" as="geometry"/>
-                    </mxCell>
-                </object>
-                <mxCell id="255" value="SK" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="254" connectable="0" vertex="1">
-                    <mxGeometry width="30" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="256" value="" style="line;strokeWidth=1;html=1;" parent="253" vertex="1">
-                    <mxGeometry x="37" y="20" width="104" height="10" as="geometry"/>
-                </mxCell>
-                <mxCell id="16" value="NOME NOT_NULL" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;border-bottom=10px;" parent="13" vertex="1">
-                    <mxGeometry y="86" width="210" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="17" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="16" connectable="0" vertex="1">
-                    <mxGeometry width="30" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="18" value="COR" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="13" vertex="1">
-                    <mxGeometry y="112" width="210" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="19" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="18" connectable="0" vertex="1">
-                    <mxGeometry width="30" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="20" value="TAMANHO" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="13" vertex="1">
-                    <mxGeometry y="138" width="210" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="21" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="20" connectable="0" vertex="1">
-                    <mxGeometry width="30" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="142" value="PESO" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="13" vertex="1">
-                    <mxGeometry y="164" width="210" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="143" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="142" connectable="0" vertex="1">
-                    <mxGeometry width="30" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="144" value="LOCAL_FABRICACAO" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="13" vertex="1">
-                    <mxGeometry y="190" width="210" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="145" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="144" connectable="0" vertex="1">
-                    <mxGeometry width="30" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="243" value="TEXTO NOT_NULL" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="13" vertex="1">
-                    <mxGeometry y="216" width="210" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="244" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="243" connectable="0" vertex="1">
-                    <mxGeometry width="30" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="22" value="" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="13" vertex="1">
-                    <mxGeometry y="242" width="210" height="10" as="geometry"/>
-                </mxCell>
-                <mxCell id="23" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="22" connectable="0" vertex="1">
-                    <mxGeometry width="30" height="10" as="geometry"/>
-                </mxCell>
-                <mxCell id="46" value="TRANSPORTADORA" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#76608a;strokeColor=#432D57;swimlaneFillColor=none;fontColor=#ffffff;" parent="1" vertex="1">
-                    <mxGeometry x="109.99999999999994" y="540" width="220" height="144" as="geometry"/>
-                </mxCell>
-                <mxCell id="47" value="COD" style="shape=partialRectangle;top=0;left=0;right=0;bottom=1;align=left;verticalAlign=middle;fillColor=#e1d5e7;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontStyle=5;fontSize=12;strokeColor=#9673a6;" parent="46" vertex="1">
-                    <mxGeometry y="26" width="220" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="48" value="PK" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="47" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="49" value="NOME NOT_NULL" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="46" vertex="1">
-                    <mxGeometry y="56" width="220" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="50" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="49" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="51" value="TAXA_MIN NOT_NULL" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="46" vertex="1">
-                    <mxGeometry y="82" width="220" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="52" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="51" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="53" value="TAXA_PRODUTO NOT_NULL" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="46" vertex="1">
-                    <mxGeometry y="108" width="220" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="54" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="53" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="55" value="" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="46" vertex="1">
-                    <mxGeometry y="134" width="220" height="10" as="geometry"/>
-                </mxCell>
-                <mxCell id="56" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="55" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="10" as="geometry"/>
-                </mxCell>
-                <mxCell id="123" value="SENHA" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#76608a;strokeColor=#432D57;swimlaneFillColor=none;fontColor=#ffffff;" parent="1" vertex="1">
-                    <mxGeometry x="60" y="1050" width="240" height="118" as="geometry"/>
-                </mxCell>
-                <mxCell id="124" value="COD" style="shape=partialRectangle;top=0;left=0;right=0;bottom=1;align=left;verticalAlign=middle;fillColor=#e1d5e7;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontStyle=5;fontSize=12;strokeColor=#9673a6;" parent="123" vertex="1">
-                    <mxGeometry y="26" width="240" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="125" value="PK" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="124" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="126" value="SENHA NOT_NULL" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="123" vertex="1">
-                    <mxGeometry y="56" width="240" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="127" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="126" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="132" value="" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="123" vertex="1">
-                    <mxGeometry y="82" width="240" height="10" as="geometry"/>
-                </mxCell>
-                <mxCell id="133" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="132" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="10" as="geometry"/>
-                </mxCell>
-                <mxCell id="287" value="COD_FUNCIONARIO NOT_NULL" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=#f8cecc;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;strokeColor=#b85450;" parent="123" vertex="1">
-                    <mxGeometry y="92" width="240" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="288" value="FK" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="287" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="112" value="FUNCIONARIO" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#76608a;strokeColor=#432D57;swimlaneFillColor=none;fontColor=#ffffff;" parent="1" vertex="1">
-                    <mxGeometry x="59.99999999999994" y="856" width="200" height="170" as="geometry"/>
-                </mxCell>
-                <mxCell id="113" value="COD" style="shape=partialRectangle;top=0;left=0;right=0;bottom=1;align=left;verticalAlign=middle;fillColor=#e1d5e7;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontStyle=5;fontSize=12;strokeColor=#9673a6;" parent="112" vertex="1">
-                    <mxGeometry y="26" width="200" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="114" value="PK" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="113" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="115" value="NOME" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="112" vertex="1">
-                    <mxGeometry y="56" width="200" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="116" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="115" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="117" value="DT_CONTRATO NOT_NULL" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="112" vertex="1">
-                    <mxGeometry y="82" width="200" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="118" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="117" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="210" value="DT_NASCIMENTO" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="112" vertex="1">
-                    <mxGeometry y="108" width="200" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="211" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="210" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="119" value="GENERO" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="112" vertex="1">
-                    <mxGeometry y="134" width="200" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="120" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="119" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="121" value="" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="112" vertex="1">
-                    <mxGeometry y="160" width="200" height="10" as="geometry"/>
-                </mxCell>
-                <mxCell id="122" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="121" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="10" as="geometry"/>
-                </mxCell>
-                <mxCell id="212" value="CONEC_VENDAS" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#76608a;strokeColor=#432D57;swimlaneFillColor=none;fontColor=#ffffff;" parent="1" vertex="1">
-                    <mxGeometry x="379.99999999999994" y="946" width="180" height="196" as="geometry"/>
-                </mxCell>
-                <mxCell id="213" value="COD" style="shape=partialRectangle;top=0;left=0;right=0;bottom=1;align=left;verticalAlign=middle;fillColor=#e1d5e7;spacingLeft=54;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontStyle=5;fontSize=12;strokeColor=#9673a6;" parent="212" vertex="1">
-                    <mxGeometry y="26" width="180" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="214" value="PK" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="213" vertex="1" connectable="0">
-                    <mxGeometry width="50" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="215" value="BONUS" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=54;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="212" vertex="1">
-                    <mxGeometry y="56" width="180" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="216" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="215" vertex="1" connectable="0">
-                    <mxGeometry width="50" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="217" value="COMISSAO" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=54;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="212" vertex="1">
-                    <mxGeometry y="82" width="180" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="218" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="217" vertex="1" connectable="0">
-                    <mxGeometry width="50" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="219" value="TRATAMENTO " style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=54;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="212" vertex="1">
-                    <mxGeometry y="108" width="180" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="220" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="219" vertex="1" connectable="0">
-                    <mxGeometry width="50" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="221" value="" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="212" vertex="1">
-                    <mxGeometry y="134" width="180" height="10" as="geometry"/>
-                </mxCell>
-                <mxCell id="222" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="221" vertex="1" connectable="0">
-                    <mxGeometry width="50" height="10" as="geometry"/>
-                </mxCell>
-                <mxCell id="223" value="COD_FUNCIONARIO" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=#f8cecc;spacingLeft=54;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;strokeColor=#b85450;fontStyle=4" parent="212" vertex="1">
-                    <mxGeometry y="144" width="180" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="224" value="PK,FK" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="223" vertex="1" connectable="0">
-                    <mxGeometry width="50" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="225" value="COD_SENHA" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=#f8cecc;spacingLeft=54;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;strokeColor=#b85450;fontStyle=4" parent="212" vertex="1">
-                    <mxGeometry y="170" width="180" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="226" value="PK,FK" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="225" vertex="1" connectable="0">
-                    <mxGeometry width="50" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="101" value="CLIENTE" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#76608a;strokeColor=#432D57;swimlaneFillColor=none;fontColor=#ffffff;" parent="1" vertex="1">
-                    <mxGeometry x="1240" y="474" width="220" height="196" as="geometry"/>
-                </mxCell>
-                <mxCell id="102" value="CADASTRO" style="shape=partialRectangle;top=0;left=0;right=0;bottom=1;align=left;verticalAlign=middle;fillColor=#e1d5e7;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontStyle=5;fontSize=12;strokeColor=#9673a6;" parent="101" vertex="1">
-                    <mxGeometry y="26" width="220" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="103" value="PK" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="102" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="104" value="PRIMEIRO_NOME NOT_NULL" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="101" vertex="1">
-                    <mxGeometry y="56" width="220" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="105" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="104" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="350" value="NOME_MEIO NOT_NULL" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="101" vertex="1">
-                    <mxGeometry y="82" width="220" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="351" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="350" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="352" value="SOBRENOME NOT_NULL" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="101" vertex="1">
-                    <mxGeometry y="108" width="220" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="353" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="352" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="106" value="SENHA NOT_NULL" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="101" vertex="1">
-                    <mxGeometry y="134" width="220" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="107" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="106" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="108" value="TRATAMENTO " style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="101" vertex="1">
-                    <mxGeometry y="160" width="220" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="109" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="108" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="110" value="" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="101" vertex="1">
-                    <mxGeometry y="186" width="220" height="10" as="geometry"/>
-                </mxCell>
-                <mxCell id="111" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="110" vertex="1" connectable="0">
-                    <mxGeometry width="30" height="10" as="geometry"/>
-                </mxCell>
-                <mxCell id="369" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="354" target="14" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="354" value="IDIOMA" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#76608a;strokeColor=#432D57;swimlaneFillColor=none;fontColor=#ffffff;" parent="1" vertex="1">
-                    <mxGeometry x="109.99999999999994" y="290" width="180" height="92" as="geometry"/>
-                </mxCell>
-                <mxCell id="355" value="IDIOMA" style="shape=partialRectangle;top=0;left=0;right=0;bottom=1;align=left;verticalAlign=middle;fillColor=#e1d5e7;spacingLeft=54;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontStyle=5;fontSize=12;strokeColor=#9673a6;" parent="354" vertex="1">
-                    <mxGeometry y="26" width="180" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="356" value="PK" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="355" vertex="1" connectable="0">
-                    <mxGeometry width="50" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="363" value="" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="354" vertex="1">
-                    <mxGeometry y="56" width="180" height="10" as="geometry"/>
-                </mxCell>
-                <mxCell id="364" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="363" vertex="1" connectable="0">
-                    <mxGeometry width="50" height="10" as="geometry"/>
-                </mxCell>
-                <mxCell id="365" value="COD_MODELO" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=#f8cecc;spacingLeft=54;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;strokeColor=#b85450;fontStyle=4" parent="354" vertex="1">
-                    <mxGeometry y="66" width="180" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="366" value="PK,FK" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="365" vertex="1" connectable="0">
-                    <mxGeometry width="50" height="26" as="geometry"/>
-                </mxCell>
-            </root>
-        </mxGraphModel>
-    </diagram>
-</mxfile>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1730px" height="1158px" viewBox="-0.5 -0.5 1730 1158" content="&lt;mxfile host=&quot;&quot; modified=&quot;2020-07-07T01:31:50.160Z&quot; agent=&quot;5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.45.1 Chrome/78.0.3904.130 Electron/7.2.4 Safari/537.36&quot; etag=&quot;mYTqQ0342qZ7kiIuPKe4&quot; version=&quot;13.1.3&quot;&gt;&lt;diagram id=&quot;6hGFLwfOUW9BJ-s0fimq&quot; name=&quot;Page-1&quot;&gt;7V1tc6JKFv41+ThTvIsfEclca6Nm1cydu18sEkniXSNZQmaS++sXtBvUPhiQbmwmJzVVIwiKfc7z9Onz1he6+/T2LfKfH4fhIlhdaMri7ULvX2iaqth68l965n17pmOSEw/RckEuyk9Ml/8E9E5y9nW5CF72LozDcBUvn/dP3oXrdXAX753zoyj8tX/Zfbja/9Zn/yFgTkzv/BV79s/lIn4kZ7uakr/xR7B8eKRfrSnknSefXk1OvDz6i/DXzindu9DdKAzj7aunNzdYpaNHB2Z732XBu9mTRcE6LnODppNbXuJ3+vOCRfJryWEYxY/hQ7j2V15+tpefvQrD5+QyNTn5dxDH70RY/mscJqce46cVeTd4W8Y/ktcKef1X+vqrSY76bztv9d/pwTqO3n/QD0gPtndpJj3O79sc0RvvXqOfwYLcyA4J/cnha3RHfnMyEESR/OghoNep2vZkOiI7t5Kh/BaET0HytckFUbDy4+XPff3wiZo9ZNflgkheEFkUyUVrn1xEiMUExKIZ5xOLvf2Qn/7qlXzshWatkifrvTz76z2BWf97TWHcuw/X8ZeXjQCc5ALden7L30xePaT/D51rzxl6o9k4ueRyMHKukv/Vrwl6Lf8pEWVvffvyvL1+tb3vcvuF29sZZYmDt3hf0v5q+bBOXt8lAx5EyYmfQRQvE1ZzyBtPy8Vio0ZRkDytf7v5qFRuz+FyHW9GzexdmP30sxI92v6i47JMvyJ4OyqjbFboElGTSYEy5K+cYQ2TnHvcIVdd4SBWs9sQ2ppDjtkBkHM+4NgmA5yp9+3GA8f9yr9NTAZh2ssOYKYAjMJmVgT5xL15GlJk5atum8aeKpOfXnpQyWdfpw++c0l4f/+SSPJw1LNHKCcI6xRV39O/BvW+nKpbwNxtdM6n6pT8clX3Rt8HjiSqbnFUddPQO3uqTs1JOXS9o4Bjfh5d/9BqLansAK9rZzRUbY3R9mtnMhu4g2tZNJ6qARdy75r7Gv9FKnbv6OfUeEUEu3foEn/XkFHOqPBUm3KFv3T+Q+3y26jQJD+T8usc6V7T9i0btSuV8tu/n/IbrPJ31fPpPlWmXdNmNvG+Vab6aLuCY5T9Nozj8OlkZafL89rK/iWRoE0tObok1aTS9nMY8iW11pJLaw1Ga91xb+KMXH4WSpwO4IlKy80gT5TWslRrn6INiZS2y86d3qjvTTx3zEji5dfyaeWvA+JBo3q9cYc8LleLK/89fE3H8CX27/5Lj3qPYbT8J7nep6JL3o5iotCatXfFNL2TfOZGdME1FYx6cGrov+1deOW/xPRpwtXKf35ZboWU3viU6P1y3SNUtrmIUaDNbyIuNCM9Xq5WbrgKo82v1zuWpdj+5vGj8L/BzjuGrvUTGzR5hwzQ5c6d6zAbsJ1b7jd/nBx1mTlNozc60bAdT51qAZ66jD/rgLnLLq7dcZ9Vnkf/OX2Z/NR46a8mKYjWDxsK3CB1I5NVcE9lSKajzWs6Be0Bf3ttsW12IL5AXZhBZ+sVvluuH662X6Ub+akJ+cr0VJh87v1qEwh6TD4xWKePFMZ+XMglvWSA3dTKSFhFc5NjNT/eEM1zwu5uuE7Ux19uhB0kGvsrSLW2t4jC5xnlZuUAYOaBcmqQEnatju5boEZ1i1ZbrErRedUqp0A8XL1dYLn6r9rqc7sL9XsWj2W1aF9buCnLR/qQ/kyi74eSB+RbRBnlp6sdQeui5MxaqpObNPwyGs/mo5urKzGUoXws7K2lAChJi6jiuIJUJgCzJAFQoqilGKwxeG74bzWiFdiv70z4APtcRMzGmkY3Q28yRvhLCX/qQm4E/hbC/3T4mwWilQv+HXaJMOg7fQ/hLyX8VcVuEP9QAg/ivyT+OwWylQr/qslyvDedOX2c/yUlgNIeJC7awU4PyABlGSDHluQUwNL8tTOYIgHISQAU7M0QQJfRDSSA8gRQP8TaBAFQ7dldBHjXiH858W836ABULTaEhPgvjX+rSLpS4b8rgOMR8NwAnyWsfgR4WvJXC/AKOxcg4Euv+etnp3yAdx4y1uyzljUIyf2zoQoelURgzpBGBSTvzLwhOOzNp7na9dU0S3NVux1CEDTHW6YcKl1h17bu1cAbzbx5Io85JlS1LKHKpKRItM0CSh+zCvJd4rTt+qjWVQHuMLSUCibTHLt1kqNAZeAxi+oqRkdOt5RyKHExlaBiZz5CZtdG7rg/J3OIROBPida+C+7uGAUwW8IAzFxza5tpFfv+DGxwIQq9JFHwWF7rGmsLpmmU7uXZcynbxBdcl1YQX/CRNZhyfcTORMJoBWFYrA9GIGFoSBi1CaNwcSEZYZy1CFlEi4mMqiUpQtZpHe5vNMRZKzcpigZVoNT12usP+uhXaYlfxTb23SomlejufAfFHAyaj1xPf6Ci074YYwkL1QrtpyOFajnEazljRFWqqUDLLCxVqxaszkAoda1alv6wG1kZzxzMURHmiD0B+0CRGoh9LjkqNiap1oF9O5JUbdbbPhhej6czmXwqCHygPE0g8DE5tQ7w25GcCmRSuOPRzJEwBoPwh8rTxOEf6G+C+C+N/8JMRMnwzzrDNxFYZzJzkrk/+QpdzR1nyANy8ABQpSaQB1j3I/JAeR7QCqQrGQ+APsL5bOKMpo7r4DJAKvwDRWoC8c86/xD/5fEv3O/HR8is368/m3uX3mzwfVOujpaAlEwAlKsJZAJ0BdZhgna4AoG2JCkTjL4P0AiQCfpQ4ZpA6KMzsA70W+EM1IDqxA304bbqCP4zgl9v0BOoKegJPB38OaokBz/rARh6Exd7VclLAlaDbkBNQTdAHRJohRtAUwA3gDdNI4Lj+eXEw3igXATQbdAPqCm4+q9DAK1Y/WtART9JBJp7N5PxtXeDrkA5yUBXG3QFagr6A+qQQUv8ARp/ISPkOULeKOkC5NLXSME8gDqQ1wqkK1fzqg7r6tnryCCjJ6C41rotbFBca82HJ8wGQwVah501sLS6AlNkEJTbOLDY6SDLGLoeT9Im9xNJd7lCwviIMDpNhhcs1vOMhFGBMKxWbIWlWcBmOKlpMR557vy7N+o7U+SI9nCEoTQZfbBYvxRyRBWOaMV+Odkm82yDpzwNAS2KNrKF3mSoosPGKpEtqixB2hGt7LDRSsoW7riXLERcpIuW0kWTLQ60DmuZIl1UoYtWxDZ1/SyN+d+W8Y+d19s+ZZpJDvM+ZelBxTZlZJbbbVN2tp78Ou1x1YptD6hUlD2pcBGKzQola/7DTyzkVtrWn4CuQxNCKI1qBzGB7aOSu3LhOlHkv+9cRsii8Hts5eB7SOzhsuT1FmkamOvW9glyTau4EYHGGnwDaEcIbJAnZYM8VTvokJcdf9hr3uLSJhQ2JK8n4/6NVC1wPnNbYa1oy+8jCbLllIhPq1nWiMS2wpXbCnO1JMW1FQb2vUn5oqArK9JFK+gCipKLows2gQ7pojJdcM2jE0YXusbKOt2vYBv1kogvwJS6tlAFFw6AAt/COEDHjLoa4M9QJTn42ZAWLalB5EuEfBWKZ4uDPlbT1YE+1/iUOOizboV/3zij2aDv9KWvpPtc4IfC0+LAj5V0dcDfDh8B1SgsnpEU8lCIWdh2pjq20KgDea4tNERtZwqt8gsCCBiGkjEM1T3Y/lpVAatAhSYMKvtaHMGoD+7SJNUuTUX+hkrxJ0h9eOzcw3oZcIemapMMzylG1P5M7MJhNB5KWpb5m5mYldEP2Zfg5MFhtcHGI8+N/fZYl62ojACihZLteP3Z4Q7tzSQK7qoA38KnwXu3QLJS4V0FwkbuTdqGabOmdHFzFjlZANyiSRgNYBSpBg+ofKNIwpjAYMm+P5sPRu3IHvlM2Ie2ZRKGfQM9yjWwb3D1KIvCPkvvCfIvB4h82ZAPbcgkCvlsUgHivizui6KEUqFeFcDsiHVuWIe2XIKwziOkSPd4QbCfMskLb6TGJWpswn2RhuO+dyXp3gufq39BdYroNuj610xsjVSHJXL8SW0UAK4e15l538aTAbASwPwSGfNLVKX7tbv7R/wFR9JNVBuadlSbg0KBNc9iJhnMNymcd47km+g8Cp5BBeKRigAkMWPGSbWME+Ftc7jImTUvMOekqbTm6jXMJRmAi0mCe4DUAH8rtgAx2Cg0ol0etAM5J7DByCPBFGPNp6PdEB5q5uKKsliRftzDrcG2bXvt4ooBtNuQLesaudclj1Bj823yNJtddk1vesVL+fQRr/zbYLU/ghQZhEyLDeHNkvuokrPjmOlBDXUldylfdd0gP7lmc7svB3eE9/cvQcwMfrXOcZl6HHhfj8oEHa/NOF6rT4jdkhMin570bJwOHa8VHK8Z9KQ2gXXDbvWkCDUppfvGSdI59pS+vHUGWBU/wIZMRocO5Ipde5OZN3KBNhQYO5AxdmDSVr7HalOh8nWbR6yAEgY2SJW446FRXqnO0SDVYAucseNhVa9hBkS5m58AfsPNXl+tWlIhY5y5RyrgckTGqMwY7eiVZghIa8ZIQ6FSVAZ+2caoXLolGdggrQ7ihTdI45LazJqD25TXedoedTLYlLji2lT42nTHQcJjmUoz1rMVRtnKGGpZ1CuKg8xOMfMI5rQV2p9HctrUylvBNdlESYUNzvPOPK3KaVOFB7p5yFkzS3Ref4jC1+cKGlz+F1ZsEHTCLw5v/04eJLlntQ0d0wX44dS6uE/+7f7+fISMnWcnw/dbUOjPJZmW5eZQZfOXDmIqwV4YLYLogDd23pllIRBycodxbhODJtXl9WL8Gq+Wa/pz4ygILsPVIhkqcuZl7T/Pwm3YfXtmHZLcg37+KNnHHTwOa2U9+ovNkG8toqflHXnNgioH5MfzggC4JIcEMUV8wU4MU5wYqpXZGMdIsqrkxc0MJfwQWxARzP5JHkr9yJauouPkXZpjT00hoD6E7lrAfXnGjgOmfQtxz9xuGPxLPisqz2+cbOeypcpcqtbRZ1PDbLZEkyMXEUPb3k2QB0S5aasDXqXul0YQj/UfNRBvtwHx2dPkIp45Q2f0h0w5H4h6vcGmg5lPGFF/wipIaQPqVSDd69qbIuZlwrzVaLNB3Kmyjk9cawfq2ejZ1dh1ruaXTi91GoMRWWSAszFAt8GmgyqWf9ZiAOHOTy6mHUDzM+/HTNIuZJ+eATK3USN2v4heAJ+GATJoSc4ArOGPgJcI8NSSbKL3KLAhHeK9NN6Fm/xcenqwQb7ZxBlNr8eTmdMfT7CzYEuqAz/oLGgawFJBg5SKTvK1tApsaCtmHsEsTMpBVbIwCzPEK2VhQgrEZStLNsyIWZjV2g0Jb2nLRc5s/BBTTBqyPaszAJStCjEAl31P2LDjufHfHtMzg5XUbVVMNow4c3448+FghAQgJQFAG1wKIwABfohPQwBm0fJBLgIAfM0pAWQ9RZAEJCQBcH9LYSyAHucaLCB8Q3suIhYQVkS484M7tKUl6DjisB4sU3qBcC+Cu/Ct7fjsZ8bO+lNv9Ac6mlviaKbl/Jk5YAKeZQPSHh571qgaFvhL7lrOEV7LtwypEJcKf2BPXXQuV0tm0lpR468CG+WSqQZXluJzG6rTAORghmiASzqjhtWKdRhA+M5VXISsC/AiIuL5IR7yKIO2I5d2Y5jOVAPxGZSkXl5qNryX8uXNyB2MR85kIKlf+XPt63ECVQAbewgzDrKW6bixx2m5j3YrdlTOauV3xbxLFOiRaoNHyjya+WhDqwqwb22Hh5EBNDVF/5Rc/qkM9dx3SeDitQBamKJ/qpqtyqFDYxP+KaDZ6Db9URqr9HdboVaHftnZg489gvHPOqgXHgDlI2R2hdqfzd3xaDZxMOtJVh6APFXieIBdfiIPlOeBViw+M3fXPg+MnKk7GHojqfZUQ/iDWY+i8J88IOL/dOdTBiyp8a8CzRO/eSNvgsCXCvhQ/qOwiR/otojALz/xt6LuSRXRPxEhzxHy0I5FonY6U6nwEfIn5aEIr3TiEpUGAk3Jgt9z59+9Ud+ZsgLHSJOMkSa9czTU1DVYZ6FqQzrV5bJKaHWoSeq9dTmFmjQuoSZQhbhsdYKhpvqLTa6hJmirTT6SZkNNvfHoBph55DI8pWaJDzSDR6wJxD4fHxPGmurAnmusSdSe2tCWPO54OJhO5W/k/KmQD0SXBCIfo0t1kM81uiQO+ax3OY0vO9vQkqtdOAoygEQMAAWYxFEA+plrUQBXP7MwCkA/s+SQB0JLsLuIxwoQ/cx1IM/XzwxBno+QQZfg/GhRg4QlT22Z+YtLnna9iAYftjBKsgWfuQP2DLpYBVWFNIT7BvnImvUNpqRR0JUH6aIddEGrmZqhC9aZiHRRmS5a4VNUFXZZ4V4NvNEMKFzBMLaMYWw1K5wmZGF0yjb54xG4VhV2KeI6fWc6E5X7iIWShVPQsUJJpbxmnWGTCFVhFzsYva6WPpUhUe5CSQVYjUwGQ28wGc9xw4imMimr00GTO0aoCu5PWocJhLf04yFkHdgXJCWAecIFWDopKQs0uW2EDuwqgixQlgVyeEnOAuwCYjruTTy0BeRlgUb3jdCBvUWQBsrTgPBlAR+LD/v7tosCyu4lwUc7sMFvnfVAOxr8KmwuY9vS3D4XBUC1leIogE2CRAooTwF2gXTlogCgjwpCXibI2yW9gFzKqbF1Sh3Ii2+dwkPIutVlZBosHgIa+EqG4zF8CNf+ysvP9vKzV+FGyumY/B3E8TsZFP81DpNTj/ETjTsnAxO9/yDjvjn4Kz34atLD/tvum/13cnT3Gv0MFuRDgGHenoop9C7ySsz0ZxwFVRSs/Hj5M9j7JGgwya3XqbZcZKFfrbsf+dUPm96+hK/RXUDuykXiRJH/vnMZUcLC7zEU+Hsuy16vHb/epBkx8PXJi+0T5/qUjWFJBwIbchr0B+Mh7lPWliQH5WitfgaEj/KjaN/5eu4oNjZVpE1y5jtInWLHKd8hx7yU1fo6sDsm5jtUdGwKT7HjImlLgPcalzSFSlEZ9mUL9fkYu7gHdg3EW8Jz8PkIGc7BH4773hXW7EiRhH8CT1gNNvTQLczB50AXMubgJ4dRGMa7i9nIf34chosgveL/&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs>
+        <clipPath id="mx-clip-1303-746-122-30-0">
+            <rect x="1303" y="746" width="122" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-1273-746-22-30-0">
+            <rect x="1273" y="746" width="22" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-1303-781-122-26-0">
+            <rect x="1303" y="781" width="122" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-1303-807-122-26-0">
+            <rect x="1303" y="807" width="122" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-1303-833-122-26-0">
+            <rect x="1303" y="833" width="122" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-1303-859-122-26-0">
+            <rect x="1303" y="859" width="122" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-1303-885-122-26-0">
+            <rect x="1303" y="885" width="122" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-1303-911-122-26-0">
+            <rect x="1303" y="911" width="122" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-1583-647-142-26-0">
+            <rect x="1583" y="647" width="142" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-1533-647-42-26-0">
+            <rect x="1533" y="647" width="42" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-1583-673-142-26-0">
+            <rect x="1583" y="673" width="142" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-1533-673-42-26-0">
+            <rect x="1533" y="673" width="42" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-873-595-222-30-0">
+            <rect x="873" y="595" width="222" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-843-595-22-30-0">
+            <rect x="843" y="595" width="22" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-873-630-222-26-0">
+            <rect x="873" y="630" width="222" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-873-656-222-26-0">
+            <rect x="873" y="656" width="222" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-873-682-222-26-0">
+            <rect x="873" y="682" width="222" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-873-708-222-26-0">
+            <rect x="873" y="708" width="222" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-873-734-222-26-0">
+            <rect x="873" y="734" width="222" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-873-760-222-26-0">
+            <rect x="873" y="760" width="222" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-873-786-222-26-0">
+            <rect x="873" y="786" width="222" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-873-812-222-26-0">
+            <rect x="873" y="812" width="222" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-873-838-222-26-0">
+            <rect x="873" y="838" width="222" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-873-864-222-26-0">
+            <rect x="873" y="864" width="222" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-873-890-222-26-0">
+            <rect x="873" y="890" width="222" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-873-926-222-26-0">
+            <rect x="873" y="926" width="222" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-843-926-22-26-0">
+            <rect x="843" y="926" width="22" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-873-952-222-26-0">
+            <rect x="873" y="952" width="222" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-843-952-22-26-0">
+            <rect x="843" y="952" width="22" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-873-978-222-26-0">
+            <rect x="873" y="978" width="222" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-843-978-22-26-0">
+            <rect x="843" y="978" width="22" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-873-1004-222-26-0">
+            <rect x="873" y="1004" width="222" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-843-1004-22-26-0">
+            <rect x="843" y="1004" width="22" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-873-1030-222-26-0">
+            <rect x="873" y="1030" width="222" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-843-1030-22-26-0">
+            <rect x="843" y="1030" width="22" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-1293-257-142-26-0">
+            <rect x="1293" y="257" width="142" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-1243-257-42-26-0">
+            <rect x="1243" y="257" width="42" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-1293-283-142-26-0">
+            <rect x="1293" y="283" width="142" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-1243-283-42-26-0">
+            <rect x="1243" y="283" width="42" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-1293-309-142-26-0">
+            <rect x="1293" y="309" width="142" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-1293-335-142-26-0">
+            <rect x="1293" y="335" width="142" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-1293-361-142-26-0">
+            <rect x="1293" y="361" width="142" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-963-122-172-30-0">
+            <rect x="963" y="122" width="172" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-933-122-22-30-0">
+            <rect x="933" y="122" width="22" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-963-157-172-26-0">
+            <rect x="963" y="157" width="172" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-963-183-172-26-0">
+            <rect x="963" y="183" width="172" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-963-209-172-26-0">
+            <rect x="963" y="209" width="172" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-963-235-172-26-0">
+            <rect x="963" y="235" width="172" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-963-261-172-26-0">
+            <rect x="963" y="261" width="172" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-963-297-172-26-0">
+            <rect x="963" y="297" width="172" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-933-297-22-26-0">
+            <rect x="933" y="297" width="22" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-143-122-142-30-0">
+            <rect x="143" y="122" width="142" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-113-122-22-30-0">
+            <rect x="113" y="122" width="22" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-143-157-142-26-0">
+            <rect x="143" y="157" width="142" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-143-193-142-26-0">
+            <rect x="143" y="193" width="142" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-113-193-22-26-0">
+            <rect x="113" y="193" width="22" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-573-127-142-26-0">
+            <rect x="573" y="127" width="142" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-523-127-42-26-0">
+            <rect x="523" y="127" width="42" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-573-153-142-26-0">
+            <rect x="573" y="153" width="142" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-523-153-42-26-0">
+            <rect x="523" y="153" width="42" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-545-272-172-30-0">
+            <rect x="545" y="272" width="172" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-515-272-22-30-0">
+            <rect x="515" y="272" width="22" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-515-302-22-30-0">
+            <rect x="515" y="302" width="22" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-545-337-172-26-0">
+            <rect x="545" y="337" width="172" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-545-363-172-26-0">
+            <rect x="545" y="363" width="172" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-545-389-172-26-0">
+            <rect x="545" y="389" width="172" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-545-415-172-26-0">
+            <rect x="545" y="415" width="172" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-545-441-172-26-0">
+            <rect x="545" y="441" width="172" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-545-467-172-26-0">
+            <rect x="545" y="467" width="172" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-143-552-182-30-0">
+            <rect x="143" y="552" width="182" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-113-552-22-30-0">
+            <rect x="113" y="552" width="22" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-143-587-182-26-0">
+            <rect x="143" y="587" width="182" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-143-613-182-26-0">
+            <rect x="143" y="613" width="182" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-143-639-182-26-0">
+            <rect x="143" y="639" width="182" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-93-1062-202-30-0">
+            <rect x="93" y="1062" width="202" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-63-1062-22-30-0">
+            <rect x="63" y="1062" width="22" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-93-1097-202-26-0">
+            <rect x="93" y="1097" width="202" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-93-1133-202-26-0">
+            <rect x="93" y="1133" width="202" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-63-1133-22-26-0">
+            <rect x="63" y="1133" width="22" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-93-868-162-30-0">
+            <rect x="93" y="868" width="162" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-63-868-22-30-0">
+            <rect x="63" y="868" width="22" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-93-903-162-26-0">
+            <rect x="93" y="903" width="162" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-93-929-162-26-0">
+            <rect x="93" y="929" width="162" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-93-955-162-26-0">
+            <rect x="93" y="955" width="162" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-93-981-162-26-0">
+            <rect x="93" y="981" width="162" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-433-958-122-30-0">
+            <rect x="433" y="958" width="122" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-383-958-42-30-0">
+            <rect x="383" y="958" width="42" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-433-993-122-26-0">
+            <rect x="433" y="993" width="122" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-433-1019-122-26-0">
+            <rect x="433" y="1019" width="122" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-433-1045-122-26-0">
+            <rect x="433" y="1045" width="122" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-433-1081-122-26-0">
+            <rect x="433" y="1081" width="122" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-383-1081-42-26-0">
+            <rect x="383" y="1081" width="42" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-433-1107-122-26-0">
+            <rect x="433" y="1107" width="122" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-383-1107-42-26-0">
+            <rect x="383" y="1107" width="42" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-1273-486-182-30-0">
+            <rect x="1273" y="486" width="182" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-1243-486-22-30-0">
+            <rect x="1243" y="486" width="22" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-1273-521-182-26-0">
+            <rect x="1273" y="521" width="182" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-1273-547-182-26-0">
+            <rect x="1273" y="547" width="182" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-1273-573-182-26-0">
+            <rect x="1273" y="573" width="182" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-1273-599-182-26-0">
+            <rect x="1273" y="599" width="182" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-1273-625-182-26-0">
+            <rect x="1273" y="625" width="182" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-163-302-122-30-0">
+            <rect x="163" y="302" width="122" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-113-302-42-30-0">
+            <rect x="113" y="302" width="42" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-163-347-122-26-0">
+            <rect x="163" y="347" width="122" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-113-347-42-26-0">
+            <rect x="113" y="347" width="42" height="26"/>
+        </clipPath>
+    </defs>
+    <g>
+        <path d="M 379 1089 Q 319 1089 319 986.75 Q 319 884.5 265.37 884.5" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 260.12 884.5 L 267.12 881 L 265.37 884.5 L 267.12 888 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 379 1115 Q 339 1115 339 1096 Q 339 1077 305.37 1077" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 300.12 1077 L 307.12 1073.5 L 305.37 1077 L 307.12 1080.5 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="1094" y="6" width="450" height="30" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 21px; margin-left: 1319px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: nowrap; ">
+                                <span style="font-size: 36px">
+                                    MAPEAMENTO FINAL 1.0 
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1319" y="25" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    MAPEAMENTO FINAL 1.0 
+                </text>
+            </switch>
+        </g>
+        <path d="M 929 305 Q 825 305 825 296 Q 825 287 727.37 287" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 722.12 287 L 729.12 283.5 L 727.37 287 L 729.12 290.5 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 293px; margin-left: 791px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; background-color: #ffffff; white-space: nowrap; ">
+                                SEGUE
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="791" y="296" fill="#000000" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                    SEGUE
+                </text>
+            </switch>
+        </g>
+        <path d="M 839 960 Q 584 960 584 763.5 Q 584 567 335.37 567" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 330.12 567 L 337.12 563.5 L 335.37 567 L 337.12 570.5 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 599px; margin-left: 536px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; background-color: #ffffff; white-space: nowrap; ">
+                                ENVIA
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="536" y="602" fill="#000000" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                    ENVIA
+                </text>
+            </switch>
+        </g>
+        <path d="M 839 986 Q 699 986 699 983.5 Q 699 981 565.37 981" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 560.12 981 L 567.12 977.5 L 565.37 981 L 567.12 984.5 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 977px; margin-left: 646px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; background-color: #ffffff; white-space: nowrap; ">
+                                PARTICIPA
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="646" y="980" fill="#000000" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                    PARTICIPA
+                </text>
+            </switch>
+        </g>
+        <path d="M 1099 934 Q 1169 934 1169 717.5 Q 1169 501 1232.63 501" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 1237.88 501 L 1230.88 504.5 L 1232.63 501 L 1230.88 497.5 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 569px; margin-left: 1151px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; background-color: #ffffff; white-space: nowrap; ">
+                                FAZ
+                                <br/>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1151" y="572" fill="#000000" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                    FAZ&#xa;
+                </text>
+            </switch>
+        </g>
+        <path d="M 1099 1012 Q 1184 1012 1184 886.5 Q 1184 761 1262.63 761" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 1267.88 761 L 1260.88 764.5 L 1262.63 761 L 1260.88 757.5 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-end; justify-content: unsafe flex-end; width: 1px; height: 1px; padding-top: 1008px; margin-left: 1161px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: right; ">
+                            <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; background-color: #ffffff; white-space: nowrap; ">
+                                ENTREGA
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1161" y="1008" fill="#000000" font-family="Helvetica" font-size="11px" text-anchor="end">
+                    ENTREGA
+                </text>
+            </switch>
+        </g>
+        <path d="M 1099 1038 Q 1184 1038 1184 899.5 Q 1184 761 1262.63 761" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 1267.88 761 L 1260.88 764.5 L 1262.63 761 L 1260.88 757.5 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 1031px; margin-left: 1176px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; background-color: #ffffff; white-space: nowrap; ">
+                                COBRANCA
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1176" y="1042" fill="#000000" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                    COBRANCA
+                </text>
+            </switch>
+        </g>
+        <path d="M 1269 746 L 1269 720 L 1429 720 L 1429 746" fill="#76608a" stroke="#432d57" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 1269 746 L 1269 942 L 1429 942 L 1429 746" fill="none" stroke="#432d57" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1269 746 L 1429 746" fill="none" stroke="#432d57" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#ffffff" font-family="Helvetica" text-anchor="middle" font-size="14px">
+            <text x="1348.5" y="738.5">
+                ENDERECO
+            </text>
+        </g>
+        <rect x="1269" y="746" width="160" height="30" fill="#e1d5e7" stroke="none" pointer-events="none"/>
+        <rect x="1269" y="746" width="160" height="30" fill="#e1d5e7" stroke="none" pointer-events="none"/>
+        <path d="M 1269 746 M 1429 746 M 1429 776 L 1269 776" fill="none" stroke="#9673a6" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" text-decoration="underline" clip-path="url(#mx-clip-1303-746-122-30-0)" font-size="12px">
+            <text x="1304.5" y="765.5">
+                COD
+            </text>
+        </g>
+        <path d="M 1269 746 M 1299 746 L 1299 776 M 1269 776" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-1273-746-22-30-0)" font-size="12px">
+            <text x="1274.5" y="765.5">
+                PK
+            </text>
+        </g>
+        <path d="M 1269 776 M 1429 776 M 1429 802 M 1269 802" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-1303-781-122-26-0)" font-size="12px">
+            <text x="1304.5" y="793.5">
+                RUA NOT_NULL
+            </text>
+        </g>
+        <path d="M 1269 776 M 1299 776 L 1299 802 M 1269 802" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1269 802 M 1429 802 M 1429 828 M 1269 828" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-1303-807-122-26-0)" font-size="12px">
+            <text x="1304.5" y="819.5">
+                NUMERO NOT_NULL
+            </text>
+        </g>
+        <path d="M 1269 802 M 1299 802 L 1299 828 M 1269 828" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1269 828 M 1429 828 M 1429 854 M 1269 854" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-1303-833-122-26-0)" font-size="12px">
+            <text x="1304.5" y="845.5">
+                CIDADE NOT_NULL
+            </text>
+        </g>
+        <path d="M 1269 828 M 1299 828 L 1299 854 M 1269 854" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1269 854 M 1429 854 M 1429 880 M 1269 880" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-1303-859-122-26-0)" font-size="12px">
+            <text x="1304.5" y="871.5">
+                ESTADO NOT_NULL
+            </text>
+        </g>
+        <path d="M 1269 854 M 1299 854 L 1299 880 M 1269 880" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1269 880 M 1429 880 M 1429 906 M 1269 906" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-1303-885-122-26-0)" font-size="12px">
+            <text x="1304.5" y="897.5">
+                PAIS NOT_NULL
+            </text>
+        </g>
+        <path d="M 1269 880 M 1299 880 L 1299 906 M 1269 906" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1269 906 M 1429 906 M 1429 932 M 1269 932" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-1303-911-122-26-0)" font-size="12px">
+            <text x="1304.5" y="923.5">
+                CEP NOT_NULL
+            </text>
+        </g>
+        <path d="M 1269 906 M 1299 906 L 1299 932 M 1269 932" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1269 932 M 1429 932 M 1429 942 M 1269 942" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1269 932 M 1299 932 L 1299 942 M 1269 942" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 59 1141 Q 39 1141 39 1012 Q 39 883 52.63 883" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 57.88 883 L 50.88 886.5 L 52.63 883 L 50.88 879.5 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 984px; margin-left: 44px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: none; background-color: #ffffff; white-space: nowrap; ">
+                                TEM
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="44" y="987" fill="#000000" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                    TEM
+                </text>
+            </switch>
+        </g>
+        <path d="M 1529 632 L 1529 606 L 1729 606 L 1729 632" fill="#76608a" stroke="#432d57" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1529 632 L 1529 694 L 1729 694 L 1729 632" fill="none" stroke="#432d57" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1529 632 L 1729 632" fill="none" stroke="#432d57" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#ffffff" font-family="Helvetica" text-anchor="middle" font-size="14px">
+            <text x="1628.5" y="624.5">
+                CLIENTE_TEM_ENDERECO
+            </text>
+        </g>
+        <path d="M 1529 632 M 1729 632 M 1729 642 M 1529 642" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1529 632 M 1579 632 L 1579 642 M 1529 642" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <rect x="1529" y="642" width="200" height="26" fill="#f8cecc" stroke="none" pointer-events="none"/>
+        <rect x="1529" y="642" width="200" height="26" fill="#f8cecc" stroke="none" pointer-events="none"/>
+        <path d="M 1529 642 M 1729 642 M 1729 668 M 1529 668" fill="none" stroke="#b85450" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" text-decoration="underline" clip-path="url(#mx-clip-1583-647-142-26-0)" font-size="12px">
+            <text x="1584.5" y="659.5">
+                COD_CLIENTE
+            </text>
+        </g>
+        <path d="M 1529 642 M 1579 642 L 1579 668 M 1529 668" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-1533-647-42-26-0)" font-size="12px">
+            <text x="1534.5" y="659.5">
+                PK,FK
+            </text>
+        </g>
+        <rect x="1529" y="668" width="200" height="26" fill="#f8cecc" stroke="none" pointer-events="none"/>
+        <rect x="1529" y="668" width="200" height="26" fill="#f8cecc" stroke="none" pointer-events="none"/>
+        <path d="M 1529 668 M 1729 668 M 1729 694 M 1529 694" fill="none" stroke="#b85450" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" text-decoration="underline" clip-path="url(#mx-clip-1583-673-142-26-0)" font-size="12px">
+            <text x="1584.5" y="685.5">
+                COD_ENDERECO
+            </text>
+        </g>
+        <path d="M 1529 668 M 1579 668 L 1579 694 M 1529 694" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-1533-673-42-26-0)" font-size="12px">
+            <text x="1534.5" y="685.5">
+                PK,FK
+            </text>
+        </g>
+        <path d="M 1529 655 Q 1494 655 1494 578 Q 1494 501 1465.37 501" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1460.12 501 L 1467.12 497.5 L 1465.37 501 L 1467.12 504.5 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1529 681 Q 1479 681 1479 721 Q 1479 761 1435.37 761" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1430.12 761 L 1437.12 757.5 L 1435.37 761 L 1437.12 764.5 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 839 595 L 839 569 L 1099 569 L 1099 595" fill="#76608a" stroke="#432d57" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 839 595 L 839 1051 L 1099 1051 L 1099 595" fill="none" stroke="#432d57" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 839 595 L 1099 595" fill="none" stroke="#432d57" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#ffffff" font-family="Helvetica" text-anchor="middle" font-size="14px">
+            <text x="968.5" y="587.5">
+                PEDIDO
+            </text>
+        </g>
+        <rect x="839" y="595" width="260" height="30" fill="#e1d5e7" stroke="none" pointer-events="none"/>
+        <rect x="839" y="595" width="260" height="30" fill="#e1d5e7" stroke="none" pointer-events="none"/>
+        <path d="M 839 595 M 1099 595 M 1099 625 L 839 625" fill="none" stroke="#9673a6" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" text-decoration="underline" clip-path="url(#mx-clip-873-595-222-30-0)" font-size="12px">
+            <text x="874.5" y="614.5">
+                COD
+            </text>
+        </g>
+        <path d="M 839 595 M 869 595 L 869 625 M 839 625" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-843-595-22-30-0)" font-size="12px">
+            <text x="844.5" y="614.5">
+                PK
+            </text>
+        </g>
+        <path d="M 839 625 M 1099 625 M 1099 651 M 839 651" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-873-630-222-26-0)" font-size="12px">
+            <text x="874.5" y="642.5">
+                TOTAL
+            </text>
+        </g>
+        <path d="M 839 625 M 869 625 L 869 651 M 839 651" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 839 651 M 1099 651 M 1099 677 M 839 677" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-873-656-222-26-0)" font-size="12px">
+            <text x="874.5" y="668.5">
+                IMPOSTO
+            </text>
+        </g>
+        <path d="M 839 651 M 869 651 L 869 677 M 839 677" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 839 677 M 1099 677 M 1099 703 M 839 703" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-873-682-222-26-0)" font-size="12px">
+            <text x="874.5" y="694.5">
+                CONTA_CLIENTE
+            </text>
+        </g>
+        <path d="M 839 677 M 869 677 L 869 703 M 839 703" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 839 703 M 1099 703 M 1099 729 M 839 729" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-873-708-222-26-0)" font-size="12px">
+            <text x="874.5" y="720.5">
+                COD_CARTAO
+            </text>
+        </g>
+        <path d="M 839 703 M 869 703 L 869 729 M 839 729" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 839 729 M 1099 729 M 1099 755 M 839 755" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-873-734-222-26-0)" font-size="12px">
+            <text x="874.5" y="746.5">
+                COD_TRANSACAO
+            </text>
+        </g>
+        <path d="M 839 729 M 869 729 L 869 755 M 839 755" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 839 755 M 1099 755 M 1099 781 M 839 781" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-873-760-222-26-0)" font-size="12px">
+            <text x="874.5" y="772.5">
+                DT_EFETIVADO
+            </text>
+        </g>
+        <path d="M 839 755 M 869 755 L 869 781 M 839 781" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 839 781 M 1099 781 M 1099 807 M 839 807" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-873-786-222-26-0)" font-size="12px">
+            <text x="874.5" y="798.5">
+                DT_ENVIO
+            </text>
+        </g>
+        <path d="M 839 781 M 869 781 L 869 807 M 839 807" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 839 807 M 1099 807 M 1099 833 M 839 833" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-873-812-222-26-0)" font-size="12px">
+            <text x="874.5" y="824.5">
+                DT_ENTREGA
+            </text>
+        </g>
+        <path d="M 839 807 M 869 807 L 869 833 M 839 833" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 839 833 M 1099 833 M 1099 859 M 839 859" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-873-838-222-26-0)" font-size="12px">
+            <text x="874.5" y="850.5">
+                MERCADO NOT_NULL
+            </text>
+        </g>
+        <path d="M 839 833 M 869 833 L 869 859 M 839 859" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 839 859 M 1099 859 M 1099 885 M 839 885" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-873-864-222-26-0)" font-size="12px">
+            <text x="874.5" y="876.5">
+                DESCONTO_FRETE
+            </text>
+        </g>
+        <path d="M 839 859 M 869 859 L 869 885 M 839 885" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 839 885 M 1099 885 M 1099 911 M 839 911" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-873-890-222-26-0)" font-size="12px">
+            <text x="874.5" y="902.5">
+                IMPOSTO_EUROPEU
+            </text>
+        </g>
+        <path d="M 839 885 M 869 885 L 869 911 M 839 911" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 839 911 M 1099 911 M 1099 921 M 839 921" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 839 911 M 869 911 L 869 921 M 839 921" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <rect x="839" y="921" width="260" height="26" fill="#f8cecc" stroke="none" pointer-events="none"/>
+        <rect x="839" y="921" width="260" height="26" fill="#f8cecc" stroke="none" pointer-events="none"/>
+        <path d="M 839 921 M 1099 921 M 1099 947 M 839 947" fill="none" stroke="#b85450" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-873-926-222-26-0)" font-size="12px">
+            <text x="874.5" y="938.5">
+                COD_CLIENTE NOT_NULL
+            </text>
+        </g>
+        <path d="M 839 921 M 869 921 L 869 947 M 839 947" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-843-926-22-26-0)" font-size="12px">
+            <text x="844.5" y="938.5">
+                FK
+            </text>
+        </g>
+        <rect x="839" y="947" width="260" height="26" fill="#f8cecc" stroke="none" pointer-events="none"/>
+        <rect x="839" y="947" width="260" height="26" fill="#f8cecc" stroke="none" pointer-events="none"/>
+        <path d="M 839 947 M 1099 947 M 1099 973 M 839 973" fill="none" stroke="#b85450" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-873-952-222-26-0)" font-size="12px">
+            <text x="874.5" y="964.5">
+                COD_TRANSPORTADORA NOT_NULL
+            </text>
+        </g>
+        <path d="M 839 947 M 869 947 L 869 973 M 839 973" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-843-952-22-26-0)" font-size="12px">
+            <text x="844.5" y="964.5">
+                FK
+            </text>
+        </g>
+        <rect x="839" y="973" width="260" height="26" fill="#f8cecc" stroke="none" pointer-events="none"/>
+        <rect x="839" y="973" width="260" height="26" fill="#f8cecc" stroke="none" pointer-events="none"/>
+        <path d="M 839 973 M 1099 973 M 1099 999 M 839 999" fill="none" stroke="#b85450" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-873-978-222-26-0)" font-size="12px">
+            <text x="874.5" y="990.5">
+                COD_CONEC_VENDAS
+            </text>
+        </g>
+        <path d="M 839 973 M 869 973 L 869 999 M 839 999" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-843-978-22-26-0)" font-size="12px">
+            <text x="844.5" y="990.5">
+                FK
+            </text>
+        </g>
+        <rect x="839" y="999" width="260" height="26" fill="#f8cecc" stroke="none" pointer-events="none"/>
+        <rect x="839" y="999" width="260" height="26" fill="#f8cecc" stroke="none" pointer-events="none"/>
+        <path d="M 839 999 M 1099 999 M 1099 1025 M 839 1025" fill="none" stroke="#b85450" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-873-1004-222-26-0)" font-size="12px">
+            <text x="874.5" y="1016.5">
+                COD_END_ENTREGA NOT_NULL
+            </text>
+        </g>
+        <path d="M 839 999 M 869 999 L 869 1025 M 839 1025" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-843-1004-22-26-0)" font-size="12px">
+            <text x="844.5" y="1016.5">
+                FK
+            </text>
+        </g>
+        <rect x="839" y="1025" width="260" height="26" fill="#f8cecc" stroke="none" pointer-events="none"/>
+        <rect x="839" y="1025" width="260" height="26" fill="#f8cecc" stroke="none" pointer-events="none"/>
+        <path d="M 839 1025 M 1099 1025 M 1099 1051 M 839 1051" fill="none" stroke="#b85450" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-873-1030-222-26-0)" font-size="12px">
+            <text x="874.5" y="1042.5">
+                COD_END_COBRANCA NOT_NULL
+            </text>
+        </g>
+        <path d="M 839 1025 M 869 1025 L 869 1051 M 839 1051" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-843-1030-22-26-0)" font-size="12px">
+            <text x="844.5" y="1042.5">
+                FK
+            </text>
+        </g>
+        <path d="M 1439 267.5 Q 1459 267.5 1459 202.25 Q 1459 137 1145.37 137" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1140.12 137 L 1147.12 133.5 L 1145.37 137 L 1147.12 140.5 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1239 291 Q 1239 396 1019 396 Q 799 396 799 503 Q 799 610 832.63 610" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 837.88 610 L 830.88 613.5 L 832.63 610 L 830.88 606.5 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1239 252 L 1239 226 L 1439 226 L 1439 252" fill="#76608a" stroke="#432d57" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1239 252 L 1239 392 L 1439 392 L 1439 252" fill="none" stroke="#432d57" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1239 252 L 1439 252" fill="none" stroke="#432d57" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#ffffff" font-family="Helvetica" text-anchor="middle" font-size="14px">
+            <text x="1338.5" y="244.5">
+                ITEM
+            </text>
+        </g>
+        <rect x="1239" y="252" width="200" height="26" fill="#f8cecc" stroke="none" pointer-events="none"/>
+        <rect x="1239" y="252" width="200" height="26" fill="#f8cecc" stroke="none" pointer-events="none"/>
+        <path d="M 1239 252 M 1439 252 M 1439 278 M 1239 278" fill="none" stroke="#b85450" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" text-decoration="underline" clip-path="url(#mx-clip-1293-257-142-26-0)" font-size="12px">
+            <text x="1294.5" y="269.5">
+                COD_PRODUTO
+            </text>
+        </g>
+        <path d="M 1239 252 M 1289 252 L 1289 278 M 1239 278" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-1243-257-42-26-0)" font-size="12px">
+            <text x="1244.5" y="269.5">
+                PK,FK
+            </text>
+        </g>
+        <rect x="1239" y="278" width="200" height="26" fill="#f8cecc" stroke="none" pointer-events="none"/>
+        <rect x="1239" y="278" width="200" height="26" fill="#f8cecc" stroke="none" pointer-events="none"/>
+        <path d="M 1239 278 M 1439 278 M 1439 304 M 1239 304" fill="none" stroke="#b85450" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" text-decoration="underline" clip-path="url(#mx-clip-1293-283-142-26-0)" font-size="12px">
+            <text x="1294.5" y="295.5">
+                COD_PEDIDO
+            </text>
+        </g>
+        <path d="M 1239 278 M 1289 278 L 1289 304 M 1239 304" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-1243-283-42-26-0)" font-size="12px">
+            <text x="1244.5" y="295.5">
+                PK,FK
+            </text>
+        </g>
+        <path d="M 1239 304 M 1439 304 M 1439 330 M 1239 330" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-1293-309-142-26-0)" font-size="12px">
+            <text x="1294.5" y="321.5">
+                PRECO_VENDA
+            </text>
+        </g>
+        <path d="M 1239 304 M 1289 304 L 1289 330 M 1239 330" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1239 330 M 1439 330 M 1439 356 M 1239 356" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-1293-335-142-26-0)" font-size="12px">
+            <text x="1294.5" y="347.5">
+                DESCONTO
+            </text>
+        </g>
+        <path d="M 1239 330 M 1289 330 L 1289 356 M 1239 356" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1239 356 M 1439 356 M 1439 382 M 1239 382" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-1293-361-142-26-0)" font-size="12px">
+            <text x="1294.5" y="373.5">
+                QUANTIDADE
+            </text>
+        </g>
+        <path d="M 1239 356 M 1289 356 L 1289 382 M 1239 382" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1239 382 M 1439 382 M 1439 392 M 1239 392" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1239 382 M 1289 382 L 1289 392 M 1239 392" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 929 122 L 929 96 L 1139 96 L 1139 122" fill="#76608a" stroke="#432d57" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 929 122 L 929 318 L 1139 318 L 1139 122" fill="none" stroke="#432d57" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 929 122 L 1139 122" fill="none" stroke="#432d57" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#ffffff" font-family="Helvetica" text-anchor="middle" font-size="14px">
+            <text x="1033.5" y="114.5">
+                PRODUTO
+            </text>
+        </g>
+        <rect x="929" y="122" width="210" height="30" fill="#e1d5e7" stroke="none" pointer-events="none"/>
+        <rect x="929" y="122" width="210" height="30" fill="#e1d5e7" stroke="none" pointer-events="none"/>
+        <path d="M 929 122 M 1139 122 M 1139 152 L 929 152" fill="none" stroke="#9673a6" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" text-decoration="underline" clip-path="url(#mx-clip-963-122-172-30-0)" font-size="12px">
+            <text x="964.5" y="141.5">
+                COD
+            </text>
+        </g>
+        <path d="M 929 122 M 959 122 L 959 152 M 929 152" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-933-122-22-30-0)" font-size="12px">
+            <text x="934.5" y="141.5">
+                PK
+            </text>
+        </g>
+        <path d="M 929 152 M 1139 152 M 1139 178 M 929 178" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-963-157-172-26-0)" font-size="12px">
+            <text x="964.5" y="169.5">
+                NOME NOT_NULL
+            </text>
+        </g>
+        <path d="M 929 152 M 959 152 L 959 178 M 929 178" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 929 178 M 1139 178 M 1139 204 M 929 204" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-963-183-172-26-0)" font-size="12px">
+            <text x="964.5" y="195.5">
+                PRECO
+            </text>
+        </g>
+        <path d="M 929 178 M 959 178 L 959 204 M 929 204" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 929 204 M 1139 204 M 1139 230 M 929 230" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-963-209-172-26-0)" font-size="12px">
+            <text x="964.5" y="221.5">
+                CUSTO_PRODUCAO
+            </text>
+        </g>
+        <path d="M 929 204 M 959 204 L 959 230 M 929 230" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 929 230 M 1139 230 M 1139 256 M 929 256" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-963-235-172-26-0)" font-size="12px">
+            <text x="964.5" y="247.5">
+                DT_IN_VENDA
+            </text>
+        </g>
+        <path d="M 929 230 M 959 230 L 959 256 M 929 256" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 929 256 M 1139 256 M 1139 282 M 929 282" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-963-261-172-26-0)" font-size="12px">
+            <text x="964.5" y="273.5">
+                DT_FI_VENDA
+            </text>
+        </g>
+        <path d="M 929 256 M 959 256 L 959 282 M 929 282" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 929 282 M 1139 282 M 1139 292 M 929 292" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 929 282 M 959 282 L 959 292 M 929 292" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <rect x="929" y="292" width="210" height="26" fill="#f8cecc" stroke="none" pointer-events="none"/>
+        <rect x="929" y="292" width="210" height="26" fill="#f8cecc" stroke="none" pointer-events="none"/>
+        <path d="M 929 292 M 1139 292 M 1139 318 M 929 318" fill="none" stroke="#b85450" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-963-297-172-26-0)" font-size="12px">
+            <text x="964.5" y="309.5">
+                COD_MODELO NOT_NULL
+            </text>
+        </g>
+        <path d="M 929 292 M 959 292 L 959 318 M 929 318" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-933-297-22-26-0)" font-size="12px">
+            <text x="934.5" y="309.5">
+                FK
+            </text>
+        </g>
+        <path d="M 109 122 L 109 96 L 289 96 L 289 122" fill="#76608a" stroke="#432d57" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 109 122 L 109 214 L 289 214 L 289 122" fill="none" stroke="#432d57" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 109 122 L 289 122" fill="none" stroke="#432d57" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#ffffff" font-family="Helvetica" text-anchor="middle" font-size="14px">
+            <text x="198.5" y="114.5">
+                CATEGORIA
+            </text>
+        </g>
+        <rect x="109" y="122" width="180" height="30" fill="#e1d5e7" stroke="none" pointer-events="none"/>
+        <rect x="109" y="122" width="180" height="30" fill="#e1d5e7" stroke="none" pointer-events="none"/>
+        <path d="M 109 122 M 289 122 M 289 152 L 109 152" fill="none" stroke="#9673a6" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" text-decoration="underline" clip-path="url(#mx-clip-143-122-142-30-0)" font-size="12px">
+            <text x="144.5" y="141.5">
+                COD
+            </text>
+        </g>
+        <path d="M 109 122 M 139 122 L 139 152 M 109 152" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-113-122-22-30-0)" font-size="12px">
+            <text x="114.5" y="141.5">
+                PK
+            </text>
+        </g>
+        <path d="M 109 152 M 289 152 M 289 178 M 109 178" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-143-157-142-26-0)" font-size="12px">
+            <text x="144.5" y="169.5">
+                NOME NOT_NULL
+            </text>
+        </g>
+        <path d="M 109 152 M 139 152 L 139 178 M 109 178" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 109 178 M 289 178 M 289 188 M 109 188" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 109 178 M 139 178 L 139 188 M 109 188" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 109 201 Q 89 201 89 169 Q 89 137 102.63 137" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 107.88 137 L 100.88 140.5 L 102.63 137 L 100.88 133.5 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe flex-end; width: 1px; height: 1px; padding-top: 153px; margin-left: 87px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: right; ">
+                            <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: none; background-color: #ffffff; white-space: nowrap; ">
+                                SUBCATEGORIA
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="87" y="156" fill="#000000" font-family="Helvetica" font-size="11px" text-anchor="end">
+                    SUBCATEGORIA
+                </text>
+            </switch>
+        </g>
+        <rect x="109" y="188" width="180" height="26" fill="#f8cecc" stroke="none" pointer-events="none"/>
+        <rect x="109" y="188" width="180" height="26" fill="#f8cecc" stroke="none" pointer-events="none"/>
+        <path d="M 109 188 M 289 188 M 289 214 M 109 214" fill="none" stroke="#b85450" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-143-193-142-26-0)" font-size="12px">
+            <text x="144.5" y="205.5">
+                COD_SUBCATEGORIA
+            </text>
+        </g>
+        <path d="M 109 188 M 139 188 L 139 214 M 109 214" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-113-193-22-26-0)" font-size="12px">
+            <text x="114.5" y="205.5">
+                FK
+            </text>
+        </g>
+        <path d="M 719 135 Q 824 135 824 136 Q 824 137 922.63 137" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 927.88 137 L 920.88 140.5 L 922.63 137 L 920.88 133.5 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 519 161 Q 404 161 404 149 Q 404 137 295.37 137" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 290.12 137 L 297.12 133.5 L 295.37 137 L 297.12 140.5 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 519 122 L 519 96 L 719 96 L 719 122" fill="#76608a" stroke="#432d57" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 519 122 L 519 184 L 719 184 L 719 122" fill="none" stroke="#432d57" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 519 122 L 719 122" fill="none" stroke="#432d57" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#ffffff" font-family="Helvetica" text-anchor="middle" font-size="14px">
+            <text x="618.5" y="114.5">
+                PERTENCE
+            </text>
+        </g>
+        <rect x="519" y="122" width="200" height="26" fill="#f8cecc" stroke="none" pointer-events="none"/>
+        <rect x="519" y="122" width="200" height="26" fill="#f8cecc" stroke="none" pointer-events="none"/>
+        <path d="M 519 122 M 719 122 M 719 148 M 519 148" fill="none" stroke="#b85450" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" text-decoration="underline" clip-path="url(#mx-clip-573-127-142-26-0)" font-size="12px">
+            <text x="574.5" y="139.5">
+                COD_PRODUTO
+            </text>
+        </g>
+        <path d="M 519 122 M 569 122 L 569 148 M 519 148" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-523-127-42-26-0)" font-size="12px">
+            <text x="524.5" y="139.5">
+                PK,FK
+            </text>
+        </g>
+        <rect x="519" y="148" width="200" height="26" fill="#f8cecc" stroke="none" pointer-events="none"/>
+        <rect x="519" y="148" width="200" height="26" fill="#f8cecc" stroke="none" pointer-events="none"/>
+        <path d="M 519 148 M 719 148 M 719 174 M 519 174" fill="none" stroke="#b85450" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" text-decoration="underline" clip-path="url(#mx-clip-573-153-142-26-0)" font-size="12px">
+            <text x="574.5" y="165.5">
+                COD_CATEGORIA
+            </text>
+        </g>
+        <path d="M 519 148 M 569 148 L 569 174 M 519 174" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-523-153-42-26-0)" font-size="12px">
+            <text x="524.5" y="165.5">
+                PK,FK
+            </text>
+        </g>
+        <path d="M 519 174 M 719 174 M 719 184 M 519 184" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 519 174 M 569 174 L 569 184 M 519 184" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 511 272 L 511 246 L 721 246 L 721 272" fill="#76608a" stroke="#432d57" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 511 272 L 511 498 L 721 498 L 721 272" fill="none" stroke="#432d57" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 511 272 L 721 272" fill="none" stroke="#432d57" stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 259px; margin-left: 616px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 14px; font-family: Helvetica; color: #ffffff; line-height: 1.2; pointer-events: none; white-space: nowrap; ">
+                                MODELO_DESCRICAO
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="616" y="263" fill="#ffffff" font-family="Helvetica" font-size="14px" text-anchor="middle">
+                    MODELO_DESCRICAO
+                </text>
+            </switch>
+        </g>
+        <rect x="511" y="272" width="210" height="30" fill="#e1d5e7" stroke="none" pointer-events="none"/>
+        <rect x="511" y="272" width="210" height="30" fill="#e1d5e7" stroke="none" pointer-events="none"/>
+        <path d="M 511 272 M 721 272 M 721 302 L 511 302" fill="none" stroke="#9673a6" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" text-decoration="underline" clip-path="url(#mx-clip-545-272-172-30-0)" font-size="12px">
+            <text x="546.5" y="291.5">
+                COD
+            </text>
+        </g>
+        <path d="M 511 272 M 541 272 L 541 302 M 511 302" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-515-272-22-30-0)" font-size="12px">
+            <text x="516.5" y="291.5">
+                PK
+            </text>
+        </g>
+        <rect x="511" y="302" width="210" height="30" fill="#e1d5e7" stroke="none" pointer-events="none"/>
+        <rect x="511" y="302" width="210" height="30" fill="#e1d5e7" stroke="none" pointer-events="none"/>
+        <path d="M 511 302 M 721 302 M 721 332 L 511 332" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" text-decoration="underline" font-size="12px">
+            <text x="546.5" y="321.5">
+                COD_DESCRICAO
+            </text>
+        </g>
+        <path d="M 511 302 M 541 302 L 541 332 M 511 332" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-515-302-22-30-0)" font-size="12px">
+            <text x="516.5" y="321.5">
+                SK
+            </text>
+        </g>
+        <path d="M 548 327 L 652 327" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 511 332 M 721 332 M 721 358 M 511 358" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-545-337-172-26-0)" font-size="12px">
+            <text x="546.5" y="349.5">
+                NOME NOT_NULL
+            </text>
+        </g>
+        <path d="M 511 332 M 541 332 L 541 358 M 511 358" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 511 358 M 721 358 M 721 384 M 511 384" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-545-363-172-26-0)" font-size="12px">
+            <text x="546.5" y="375.5">
+                COR
+            </text>
+        </g>
+        <path d="M 511 358 M 541 358 L 541 384 M 511 384" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 511 384 M 721 384 M 721 410 M 511 410" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-545-389-172-26-0)" font-size="12px">
+            <text x="546.5" y="401.5">
+                TAMANHO
+            </text>
+        </g>
+        <path d="M 511 384 M 541 384 L 541 410 M 511 410" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 511 410 M 721 410 M 721 436 M 511 436" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-545-415-172-26-0)" font-size="12px">
+            <text x="546.5" y="427.5">
+                PESO
+            </text>
+        </g>
+        <path d="M 511 410 M 541 410 L 541 436 M 511 436" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 511 436 M 721 436 M 721 462 M 511 462" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-545-441-172-26-0)" font-size="12px">
+            <text x="546.5" y="453.5">
+                LOCAL_FABRICACAO
+            </text>
+        </g>
+        <path d="M 511 436 M 541 436 L 541 462 M 511 462" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 511 462 M 721 462 M 721 488 M 511 488" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-545-467-172-26-0)" font-size="12px">
+            <text x="546.5" y="479.5">
+                TEXTO NOT_NULL
+            </text>
+        </g>
+        <path d="M 511 462 M 541 462 L 541 488 M 511 488" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 511 488 M 721 488 M 721 498 M 511 498" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 511 488 M 541 488 L 541 498 M 511 498" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 109 552 L 109 526 L 329 526 L 329 552" fill="#76608a" stroke="#432d57" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 109 552 L 109 670 L 329 670 L 329 552" fill="none" stroke="#432d57" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 109 552 L 329 552" fill="none" stroke="#432d57" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#ffffff" font-family="Helvetica" text-anchor="middle" font-size="14px">
+            <text x="218.5" y="544.5">
+                TRANSPORTADORA
+            </text>
+        </g>
+        <rect x="109" y="552" width="220" height="30" fill="#e1d5e7" stroke="none" pointer-events="none"/>
+        <rect x="109" y="552" width="220" height="30" fill="#e1d5e7" stroke="none" pointer-events="none"/>
+        <path d="M 109 552 M 329 552 M 329 582 L 109 582" fill="none" stroke="#9673a6" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" text-decoration="underline" clip-path="url(#mx-clip-143-552-182-30-0)" font-size="12px">
+            <text x="144.5" y="571.5">
+                COD
+            </text>
+        </g>
+        <path d="M 109 552 M 139 552 L 139 582 M 109 582" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-113-552-22-30-0)" font-size="12px">
+            <text x="114.5" y="571.5">
+                PK
+            </text>
+        </g>
+        <path d="M 109 582 M 329 582 M 329 608 M 109 608" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-143-587-182-26-0)" font-size="12px">
+            <text x="144.5" y="599.5">
+                NOME NOT_NULL
+            </text>
+        </g>
+        <path d="M 109 582 M 139 582 L 139 608 M 109 608" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 109 608 M 329 608 M 329 634 M 109 634" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-143-613-182-26-0)" font-size="12px">
+            <text x="144.5" y="625.5">
+                TAXA_MIN NOT_NULL
+            </text>
+        </g>
+        <path d="M 109 608 M 139 608 L 139 634 M 109 634" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 109 634 M 329 634 M 329 660 M 109 660" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-143-639-182-26-0)" font-size="12px">
+            <text x="144.5" y="651.5">
+                TAXA_PRODUTO NOT_NULL
+            </text>
+        </g>
+        <path d="M 109 634 M 139 634 L 139 660 M 109 660" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 109 660 M 329 660 M 329 670 M 109 670" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 109 660 M 139 660 L 139 670 M 109 670" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 59 1062 L 59 1036 L 299 1036 L 299 1062" fill="#76608a" stroke="#432d57" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 59 1062 L 59 1154 L 299 1154 L 299 1062" fill="none" stroke="#432d57" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 59 1062 L 299 1062" fill="none" stroke="#432d57" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#ffffff" font-family="Helvetica" text-anchor="middle" font-size="14px">
+            <text x="178.5" y="1054.5">
+                SENHA
+            </text>
+        </g>
+        <rect x="59" y="1062" width="240" height="30" fill="#e1d5e7" stroke="none" pointer-events="none"/>
+        <rect x="59" y="1062" width="240" height="30" fill="#e1d5e7" stroke="none" pointer-events="none"/>
+        <path d="M 59 1062 M 299 1062 M 299 1092 L 59 1092" fill="none" stroke="#9673a6" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" text-decoration="underline" clip-path="url(#mx-clip-93-1062-202-30-0)" font-size="12px">
+            <text x="94.5" y="1081.5">
+                COD
+            </text>
+        </g>
+        <path d="M 59 1062 M 89 1062 L 89 1092 M 59 1092" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-63-1062-22-30-0)" font-size="12px">
+            <text x="64.5" y="1081.5">
+                PK
+            </text>
+        </g>
+        <path d="M 59 1092 M 299 1092 M 299 1118 M 59 1118" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-93-1097-202-26-0)" font-size="12px">
+            <text x="94.5" y="1109.5">
+                SENHA NOT_NULL
+            </text>
+        </g>
+        <path d="M 59 1092 M 89 1092 L 89 1118 M 59 1118" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 59 1118 M 299 1118 M 299 1128 M 59 1128" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 59 1118 M 89 1118 L 89 1128 M 59 1128" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <rect x="59" y="1128" width="240" height="26" fill="#f8cecc" stroke="none" pointer-events="none"/>
+        <rect x="59" y="1128" width="240" height="26" fill="#f8cecc" stroke="none" pointer-events="none"/>
+        <path d="M 59 1128 M 299 1128 M 299 1154 M 59 1154" fill="none" stroke="#b85450" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-93-1133-202-26-0)" font-size="12px">
+            <text x="94.5" y="1145.5">
+                COD_FUNCIONARIO NOT_NULL
+            </text>
+        </g>
+        <path d="M 59 1128 M 89 1128 L 89 1154 M 59 1154" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-63-1133-22-26-0)" font-size="12px">
+            <text x="64.5" y="1145.5">
+                FK
+            </text>
+        </g>
+        <path d="M 59 868 L 59 842 L 259 842 L 259 868" fill="#76608a" stroke="#432d57" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 59 868 L 59 1012 L 259 1012 L 259 868" fill="none" stroke="#432d57" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 59 868 L 259 868" fill="none" stroke="#432d57" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#ffffff" font-family="Helvetica" text-anchor="middle" font-size="14px">
+            <text x="158.5" y="860.5">
+                FUNCIONARIO
+            </text>
+        </g>
+        <rect x="59" y="868" width="200" height="30" fill="#e1d5e7" stroke="none" pointer-events="none"/>
+        <rect x="59" y="868" width="200" height="30" fill="#e1d5e7" stroke="none" pointer-events="none"/>
+        <path d="M 59 868 M 259 868 M 259 898 L 59 898" fill="none" stroke="#9673a6" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" text-decoration="underline" clip-path="url(#mx-clip-93-868-162-30-0)" font-size="12px">
+            <text x="94.5" y="887.5">
+                COD
+            </text>
+        </g>
+        <path d="M 59 868 M 89 868 L 89 898 M 59 898" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-63-868-22-30-0)" font-size="12px">
+            <text x="64.5" y="887.5">
+                PK
+            </text>
+        </g>
+        <path d="M 59 898 M 259 898 M 259 924 M 59 924" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-93-903-162-26-0)" font-size="12px">
+            <text x="94.5" y="915.5">
+                NOME
+            </text>
+        </g>
+        <path d="M 59 898 M 89 898 L 89 924 M 59 924" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 59 924 M 259 924 M 259 950 M 59 950" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-93-929-162-26-0)" font-size="12px">
+            <text x="94.5" y="941.5">
+                DT_CONTRATO NOT_NULL
+            </text>
+        </g>
+        <path d="M 59 924 M 89 924 L 89 950 M 59 950" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 59 950 M 259 950 M 259 976 M 59 976" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-93-955-162-26-0)" font-size="12px">
+            <text x="94.5" y="967.5">
+                DT_NASCIMENTO
+            </text>
+        </g>
+        <path d="M 59 950 M 89 950 L 89 976 M 59 976" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 59 976 M 259 976 M 259 1002 M 59 1002" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-93-981-162-26-0)" font-size="12px">
+            <text x="94.5" y="993.5">
+                GENERO
+            </text>
+        </g>
+        <path d="M 59 976 M 89 976 L 89 1002 M 59 1002" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 59 1002 M 259 1002 M 259 1012 M 59 1012" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 59 1002 M 89 1002 L 89 1012 M 59 1012" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 379 958 L 379 932 L 559 932 L 559 958" fill="#76608a" stroke="#432d57" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 379 958 L 379 1128 L 559 1128 L 559 958" fill="none" stroke="#432d57" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 379 958 L 559 958" fill="none" stroke="#432d57" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#ffffff" font-family="Helvetica" text-anchor="middle" font-size="14px">
+            <text x="468.5" y="950.5">
+                CONEC_VENDAS
+            </text>
+        </g>
+        <rect x="379" y="958" width="180" height="30" fill="#e1d5e7" stroke="none" pointer-events="none"/>
+        <rect x="379" y="958" width="180" height="30" fill="#e1d5e7" stroke="none" pointer-events="none"/>
+        <path d="M 379 958 M 559 958 M 559 988 L 379 988" fill="none" stroke="#9673a6" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" text-decoration="underline" clip-path="url(#mx-clip-433-958-122-30-0)" font-size="12px">
+            <text x="434.5" y="977.5">
+                COD
+            </text>
+        </g>
+        <path d="M 379 958 M 429 958 L 429 988 M 379 988" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-383-958-42-30-0)" font-size="12px">
+            <text x="384.5" y="977.5">
+                PK
+            </text>
+        </g>
+        <path d="M 379 988 M 559 988 M 559 1014 M 379 1014" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-433-993-122-26-0)" font-size="12px">
+            <text x="434.5" y="1005.5">
+                BONUS
+            </text>
+        </g>
+        <path d="M 379 988 M 429 988 L 429 1014 M 379 1014" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 379 1014 M 559 1014 M 559 1040 M 379 1040" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-433-1019-122-26-0)" font-size="12px">
+            <text x="434.5" y="1031.5">
+                COMISSAO
+            </text>
+        </g>
+        <path d="M 379 1014 M 429 1014 L 429 1040 M 379 1040" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 379 1040 M 559 1040 M 559 1066 M 379 1066" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-433-1045-122-26-0)" font-size="12px">
+            <text x="434.5" y="1057.5">
+                TRATAMENTO 
+            </text>
+        </g>
+        <path d="M 379 1040 M 429 1040 L 429 1066 M 379 1066" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 379 1066 M 559 1066 M 559 1076 M 379 1076" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 379 1066 M 429 1066 L 429 1076 M 379 1076" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <rect x="379" y="1076" width="180" height="26" fill="#f8cecc" stroke="none" pointer-events="none"/>
+        <rect x="379" y="1076" width="180" height="26" fill="#f8cecc" stroke="none" pointer-events="none"/>
+        <path d="M 379 1076 M 559 1076 M 559 1102 M 379 1102" fill="none" stroke="#b85450" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" text-decoration="underline" clip-path="url(#mx-clip-433-1081-122-26-0)" font-size="12px">
+            <text x="434.5" y="1093.5">
+                COD_FUNCIONARIO
+            </text>
+        </g>
+        <path d="M 379 1076 M 429 1076 L 429 1102 M 379 1102" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-383-1081-42-26-0)" font-size="12px">
+            <text x="384.5" y="1093.5">
+                PK,FK
+            </text>
+        </g>
+        <rect x="379" y="1102" width="180" height="26" fill="#f8cecc" stroke="none" pointer-events="none"/>
+        <rect x="379" y="1102" width="180" height="26" fill="#f8cecc" stroke="none" pointer-events="none"/>
+        <path d="M 379 1102 M 559 1102 M 559 1128 M 379 1128" fill="none" stroke="#b85450" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" text-decoration="underline" clip-path="url(#mx-clip-433-1107-122-26-0)" font-size="12px">
+            <text x="434.5" y="1119.5">
+                COD_SENHA
+            </text>
+        </g>
+        <path d="M 379 1102 M 429 1102 L 429 1128 M 379 1128" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-383-1107-42-26-0)" font-size="12px">
+            <text x="384.5" y="1119.5">
+                PK,FK
+            </text>
+        </g>
+        <path d="M 1239 486 L 1239 460 L 1459 460 L 1459 486" fill="#76608a" stroke="#432d57" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1239 486 L 1239 656 L 1459 656 L 1459 486" fill="none" stroke="#432d57" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1239 486 L 1459 486" fill="none" stroke="#432d57" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#ffffff" font-family="Helvetica" text-anchor="middle" font-size="14px">
+            <text x="1348.5" y="478.5">
+                CLIENTE
+            </text>
+        </g>
+        <rect x="1239" y="486" width="220" height="30" fill="#e1d5e7" stroke="none" pointer-events="none"/>
+        <rect x="1239" y="486" width="220" height="30" fill="#e1d5e7" stroke="none" pointer-events="none"/>
+        <path d="M 1239 486 M 1459 486 M 1459 516 L 1239 516" fill="none" stroke="#9673a6" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" text-decoration="underline" clip-path="url(#mx-clip-1273-486-182-30-0)" font-size="12px">
+            <text x="1274.5" y="505.5">
+                CADASTRO
+            </text>
+        </g>
+        <path d="M 1239 486 M 1269 486 L 1269 516 M 1239 516" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-1243-486-22-30-0)" font-size="12px">
+            <text x="1244.5" y="505.5">
+                PK
+            </text>
+        </g>
+        <path d="M 1239 516 M 1459 516 M 1459 542 M 1239 542" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-1273-521-182-26-0)" font-size="12px">
+            <text x="1274.5" y="533.5">
+                PRIMEIRO_NOME NOT_NULL
+            </text>
+        </g>
+        <path d="M 1239 516 M 1269 516 L 1269 542 M 1239 542" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1239 542 M 1459 542 M 1459 568 M 1239 568" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-1273-547-182-26-0)" font-size="12px">
+            <text x="1274.5" y="559.5">
+                NOME_MEIO NOT_NULL
+            </text>
+        </g>
+        <path d="M 1239 542 M 1269 542 L 1269 568 M 1239 568" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1239 568 M 1459 568 M 1459 594 M 1239 594" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-1273-573-182-26-0)" font-size="12px">
+            <text x="1274.5" y="585.5">
+                SOBRENOME NOT_NULL
+            </text>
+        </g>
+        <path d="M 1239 568 M 1269 568 L 1269 594 M 1239 594" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1239 594 M 1459 594 M 1459 620 M 1239 620" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-1273-599-182-26-0)" font-size="12px">
+            <text x="1274.5" y="611.5">
+                SENHA NOT_NULL
+            </text>
+        </g>
+        <path d="M 1239 594 M 1269 594 L 1269 620 M 1239 620" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1239 620 M 1459 620 M 1459 646 M 1239 646" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-1273-625-182-26-0)" font-size="12px">
+            <text x="1274.5" y="637.5">
+                TRATAMENTO 
+            </text>
+        </g>
+        <path d="M 1239 620 M 1269 620 L 1269 646 M 1239 646" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1239 646 M 1459 646 M 1459 656 M 1239 656" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1239 646 M 1269 646 L 1269 656 M 1239 656" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 289 356 Q 399 356 399 331 Q 399 306 455 306 Q 511 306 511 293.37" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 511 288.12 L 514.5 295.12 L 511 293.37 L 507.5 295.12 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 109 302 L 109 276 L 289 276 L 289 302" fill="#76608a" stroke="#432d57" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 109 302 L 109 368 L 289 368 L 289 302" fill="none" stroke="#432d57" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 109 302 L 289 302" fill="none" stroke="#432d57" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#ffffff" font-family="Helvetica" text-anchor="middle" font-size="14px">
+            <text x="198.5" y="294.5">
+                IDIOMA
+            </text>
+        </g>
+        <rect x="109" y="302" width="180" height="30" fill="#e1d5e7" stroke="none" pointer-events="none"/>
+        <rect x="109" y="302" width="180" height="30" fill="#e1d5e7" stroke="none" pointer-events="none"/>
+        <path d="M 109 302 M 289 302 M 289 332 L 109 332" fill="none" stroke="#9673a6" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" text-decoration="underline" clip-path="url(#mx-clip-163-302-122-30-0)" font-size="12px">
+            <text x="164.5" y="321.5">
+                IDIOMA
+            </text>
+        </g>
+        <path d="M 109 302 M 159 302 L 159 332 M 109 332" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-113-302-42-30-0)" font-size="12px">
+            <text x="114.5" y="321.5">
+                PK
+            </text>
+        </g>
+        <path d="M 109 332 M 289 332 M 289 342 M 109 342" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 109 332 M 159 332 L 159 342 M 109 342" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <rect x="109" y="342" width="180" height="26" fill="#f8cecc" stroke="none" pointer-events="none"/>
+        <rect x="109" y="342" width="180" height="26" fill="#f8cecc" stroke="none" pointer-events="none"/>
+        <path d="M 109 342 M 289 342 M 289 368 M 109 368" fill="none" stroke="#b85450" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" text-decoration="underline" clip-path="url(#mx-clip-163-347-122-26-0)" font-size="12px">
+            <text x="164.5" y="359.5">
+                COD_MODELO
+            </text>
+        </g>
+        <path d="M 109 342 M 159 342 L 159 368 M 109 368" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" clip-path="url(#mx-clip-113-347-42-26-0)" font-size="12px">
+            <text x="114.5" y="359.5">
+                PK,FK
+            </text>
+        </g>
+    </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <a transform="translate(0,-5)" xlink:href="https://desk.draw.io/support/solutions/articles/16000042487" target="_blank">
+            <text text-anchor="middle" font-size="10px" x="50%" y="100%">
+                Viewer does not support full SVG 1.1
+            </text>
+        </a>
+    </switch>
+</svg>

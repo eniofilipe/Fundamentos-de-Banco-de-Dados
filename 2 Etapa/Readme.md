@@ -29,6 +29,7 @@ Utilizando metodologia proposta pelo professor Lúcio, que constitui em 7 passos
 - [Draw.io VS Code Integration](https://github.com/hediet/vscode-drawio.git)
 
 <hr/>
+<div class="page"/>
 
 ## 1 - Conjunto de Entidades
 
@@ -57,7 +58,7 @@ Utilizando metodologia proposta pelo professor Lúcio, que constitui em 7 passos
     <tr >
     <td style="border: 1px solid black;" >CUSTO_PRODUCAO</td>
     <td style="border: 1px solid black;">Custo de produção do produto</td>
-    <td style="border: 1px solid black;">FLOAT >= 0, representação de ponto flutuante maior ou igual a 0, podendo ser restringido a 3 ou 2 casas decimais</td>
+    <td style="border: 1px solid black;">FLOAT >= 0, valor em ponto flutuante maior ou igual a 0, podendo ser restringido a 3 ou 2 casas decimais</td>
   </tr>
     <tr >
     <td style="border: 1px solid black;" >PRECO</td>
@@ -75,6 +76,10 @@ Utilizando metodologia proposta pelo professor Lúcio, que constitui em 7 passos
     <td style="border: 1px solid black;">DATE OU TIMESTAMPS representação de data. Obs.: Salvar no banco com GMT 0</td>
   </tr>
 </table>
+
+</br>
+
+<div class="page"/>
 
 ### 1.2 - Modelo
 
@@ -120,6 +125,8 @@ Utilizando metodologia proposta pelo professor Lúcio, que constitui em 7 passos
   </tr>
 </table>
 
+<div class="page"/>
+
 ### 1.3 - Descrição
 
 <u>Descrição:</u> Representa a descrição de cada modelo, podendo ser em vários idiomas.
@@ -145,7 +152,7 @@ Utilizando metodologia proposta pelo professor Lúcio, que constitui em 7 passos
   <tr >
     <td style="border: 1px solid black;" >IDIOMA</td>
     <td style="border: 1px solid black;">Descreve um ou mais idiomas em que a descrição pode ser vista pelo usuário.</td>
-    <td style="border: 1px solid black;">CHAR(2) cadeia de caracteres com 2 caracteres</td>
+    <td style="border: 1px solid black;">CHAR(2) cadeia de caracteres com 2 caracteres - MULTIVALORADO</td>
   </tr>  
 </table>
 
@@ -173,6 +180,8 @@ Utilizando metodologia proposta pelo professor Lúcio, que constitui em 7 passos
   </tr>
 </table>
 
+<div class="page"/>
+
 ### 1.5 - Transportadora
 
 <u>Descrição:</u> Representa as transportadoras que podem fazer entregas das vendas aos clientes.
@@ -187,7 +196,7 @@ Utilizando metodologia proposta pelo professor Lúcio, que constitui em 7 passos
     </tr>
     <tr >
     <td style="border: 1px solid black;" ><u>COD</u></td>
-    <td style="border: 1px solid black;">Código de identificação do modelo</td>
+    <td style="border: 1px solid black;">Código de identificação da transportadora</td>
     <td style="border: 1px solid black;">BIGINT > 0, número maior que 0, UNIQUE e NOT_NULL, gerado automaticamente pelo banco</td>
   </tr>
   <tr >
@@ -221,7 +230,7 @@ Utilizando metodologia proposta pelo professor Lúcio, que constitui em 7 passos
     </tr>
     <tr >
     <td style="border: 1px solid black;" ><u>COD</u></td>
-    <td style="border: 1px solid black;">Código de identificação do modelo</td>
+    <td style="border: 1px solid black;">Código de identificação do Funcionário</td>
     <td style="border: 1px solid black;">BIGINT > 0, número maior que 0, UNIQUE e NOT_NULL, gerado automaticamente pelo banco</td>
   </tr>
   <tr >
@@ -255,7 +264,7 @@ Utilizando metodologia proposta pelo professor Lúcio, que constitui em 7 passos
     </tr>
     <tr >
     <td style="border: 1px solid black;" ><u>COD</u></td>
-    <td style="border: 1px solid black;">Código de identificação do modelo</td>
+    <td style="border: 1px solid black;">Código de identificação da Senha</td>
     <td style="border: 1px solid black;">BIGINT > 0, número maior que 0, UNIQUE e NOT_NULL, gerado automaticamente pelo banco</td>
   </tr>
   <tr >
@@ -265,7 +274,36 @@ Utilizando metodologia proposta pelo professor Lúcio, que constitui em 7 passos
   </tr>
 </table>
 
-### 1.8 - Cliente
+### 1.8 - Conec_Venda
+
+<u>Descrição:</u> Conector de venda, Relacionamento Agregado, representa a uma sessão do funcionário que o permite participar de uma venda.
+
+<u>Atributos:</u>
+
+<table style="border: 1px solid black;">
+  <tr>
+    <th style="border: 1px solid black;" scope="col">Nome</th>
+    <th style="border: 1px solid black;" scope="col">Descrição</th>
+    <th style="border: 1px solid black;" scope="col">Tipo e formato</th>
+    </tr>
+    <tr >
+    <td style="border: 1px solid black;" ><u>COD</u></td>
+    <td style="border: 1px solid black;">Código de identificação do conector</td>
+    <td style="border: 1px solid black;">BIGINT > 0, número maior que 0, UNIQUE e NOT_NULL, gerado automaticamente pelo banco</td>
+  </tr>
+  <tr >
+    <td style="border: 1px solid black;" >BONUS</td>
+    <td style="border: 1px solid black;">Decreve o bônus que o Funcionário pode receber.</td>
+    <td style="border: 1px solid black;">FLOAT >=0 valor em ponto flutuante maior ou igual a 0, podendo ser restringido a 2 ou 3 casas decimais.</td>
+  </tr>
+  <tr >
+    <td style="border: 1px solid black;" >COMISSAO</td>
+    <td style="border: 1px solid black;">Decreve a comissão que o Funcionário pode receber pela venda.</td>
+    <td style="border: 1px solid black;">FLOAT >=0 valor em ponto flutuante maior ou igual a 0, podendo ser restringido a 2 ou 3 casas decimais.</td>
+  </tr>
+</table>
+
+### 1.9 - Cliente
 
 <u>Descrição:</u> Representa o cliente que pode fazer compras e seus dados específicos.
 
@@ -285,7 +323,7 @@ Utilizando metodologia proposta pelo professor Lúcio, que constitui em 7 passos
   <tr >
     <td style="border: 1px solid black;" >NOME</td>
     <td style="border: 1px solid black;">Nome do cliente</td>
-    <td style="border: 1px solid black;">VARCHAR(70) cadeia de caracteres com no máximo 30 caracteres</td>
+    <td style="border: 1px solid black;">VARCHAR(100) cadeia de caracteres com no máximo 100 caracteres, composto em PRIMEIRO_NOME, NOME_MEIO E SOBRENOME</td>
   </tr>
   <tr >
     <td style="border: 1px solid black;" >SENHA</td>
@@ -299,7 +337,7 @@ Utilizando metodologia proposta pelo professor Lúcio, que constitui em 7 passos
   </tr>
 </table>
 
-### 1.9 - Endereço
+### 1.10 - Endereço
 
 <u>Descrição:</u> Representa os endereços dos clientes.
 
@@ -349,7 +387,7 @@ Utilizando metodologia proposta pelo professor Lúcio, que constitui em 7 passos
   </tr>
 </table>
 
-### 1.10 - Pedido
+### 1.11 - Pedido
 
 <u>Descrição:</u> Representa cada pedido que pode ser feito pelo cliente e seus atributos.
 
@@ -408,9 +446,9 @@ Utilizando metodologia proposta pelo professor Lúcio, que constitui em 7 passos
   </tr>
 </table>
 
-### 1.2 - Entidade 2
+### 1.12 - America
 
-<u>Descrição:</u> Representa o modelo a ser seguido por determinado produto, especificando seus atributos específicos.
+<u>Descrição:</u> Entidade especializada da entidade cliente, representa pedidos vendidos pro mercado americano.
 
 <u>Atributos:</u>
 
@@ -421,41 +459,16 @@ Utilizando metodologia proposta pelo professor Lúcio, que constitui em 7 passos
     <th style="border: 1px solid black;" scope="col">Tipo e formato</th>
     </tr>
     <tr >
-    <td style="border: 1px solid black;" ><u>COD</u></td>
-    <td style="border: 1px solid black;">Código de identificação do modelo</td>
-    <td style="border: 1px solid black;">BIGINT > 0, número maior que 0, UNIQUE e NOT_NULL, gerado automaticamente pelo banco</td>
-  </tr>
-  <tr >
-    <td style="border: 1px solid black;" >NOME</td>
-    <td style="border: 1px solid black;">Nome do modelo</td>
-    <td style="border: 1px solid black;">VARCHAR(30) cadeia de caracteres com no máximo 30 caracteres</td>
-  </tr>
-  <tr >
-    <td style="border: 1px solid black;" >COR</td>
-    <td style="border: 1px solid black;">Decreve a cor referente ao modelo</td>
-    <td style="border: 1px solid black;">VARCHAR(20) cadeia de caracteres com no máximo 20 caracteres</td>
-  </tr>
-    <tr >
-    <td style="border: 1px solid black;" >TAM</td>
-    <td style="border: 1px solid black;">Descreve o tamanho em milímetros referente ao modelo</td>
-    <td style="border: 1px solid black;">BIGINT > 0 número inteiro maior que 0</td>
-  </tr>
-    <tr >
-    <td style="border: 1px solid black;" >PESO</td>
-    <td style="border: 1px solid black;">Descreve o peso em gramas referente ao modelo</td>
-    <td style="border: 1px solid black;">BIGINT > 0, número inteiro maior que 0</td>
-  </tr>
-  <tr >
-    <td style="border: 1px solid black;" >LOCAL_FABRICACAO</td>
-    <td style="border: 1px solid black;">Decreve o local de fabricação do modelo</td>
-    <td style="border: 1px solid black;">VARCHAR(10) cadeia de caracteres com no máximo 10 caracteres, restrito à "ASIA", "AMERICA", "EUROPA", "OCEANIA" ou "AFRICA"</td>
+    <td style="border: 1px solid black;" >DESCONTO_FRETE</td>
+    <td style="border: 1px solid black;">Descreve o valor de desconto caso o pedido se encaixe nas específicações de desconto.</td>
+    <td style="border: 1px solid black;">FLOAT >= 0 valor em ponto flutuante maior ou igual a 0, podendo ser restringido a 2 ou 3 casas decimais</td>
   </tr>
 </table>
 
-### 1.2 - Entidade 2
+### 1.13 - Europa
 
-<u>Descrição:</u> Representa o modelo a ser seguido por determinado produto, especificando seus atributos específicos.
-
+<u>Descrição:</u> Entidade especializada da entidade cliente, representa pedidos vendidos pro mercado europeu.
+ou várias
 <u>Atributos:</u>
 
 <table style="border: 1px solid black;">
@@ -465,47 +478,60 @@ Utilizando metodologia proposta pelo professor Lúcio, que constitui em 7 passos
     <th style="border: 1px solid black;" scope="col">Tipo e formato</th>
     </tr>
     <tr >
-    <td style="border: 1px solid black;" ><u>COD</u></td>
-    <td style="border: 1px solid black;">Código de identificação do modelo</td>
-    <td style="border: 1px solid black;">BIGINT > 0, número maior que 0, UNIQUE e NOT_NULL, gerado automaticamente pelo banco</td>
-  </tr>
-  <tr >
-    <td style="border: 1px solid black;" >NOME</td>
-    <td style="border: 1px solid black;">Nome do modelo</td>
-    <td style="border: 1px solid black;">VARCHAR(30) cadeia de caracteres com no máximo 30 caracteres</td>
-  </tr>
-  <tr >
-    <td style="border: 1px solid black;" >COR</td>
-    <td style="border: 1px solid black;">Decreve a cor referente ao modelo</td>
-    <td style="border: 1px solid black;">VARCHAR(20) cadeia de caracteres com no máximo 20 caracteres</td>
-  </tr>
-    <tr >
-    <td style="border: 1px solid black;" >TAM</td>
-    <td style="border: 1px solid black;">Descreve o tamanho em milímetros referente ao modelo</td>
-    <td style="border: 1px solid black;">BIGINT > 0 número inteiro maior que 0</td>
-  </tr>
-    <tr >
-    <td style="border: 1px solid black;" >PESO</td>
-    <td style="border: 1px solid black;">Descreve o peso em gramas referente ao modelo</td>
-    <td style="border: 1px solid black;">BIGINT > 0, número inteiro maior que 0</td>
-  </tr>
-  <tr >
-    <td style="border: 1px solid black;" >LOCAL_FABRICACAO</td>
-    <td style="border: 1px solid black;">Decreve o local de fabricação do modelo</td>
-    <td style="border: 1px solid black;">VARCHAR(10) cadeia de caracteres com no máximo 10 caracteres, restrito à "ASIA", "AMERICA", "EUROPA", "OCEANIA" ou "AFRICA"</td>
+    <td style="border: 1px solid black;" >IMPOSTO_EUROPEU</td>
+    <td style="border: 1px solid black;">Descreve o valor do imposto a ser aplicado caso alugum ou vários produtos se encaixem em alguma alínea do mercado europeu</td>
+    <td style="border: 1px solid black;">FLOAT >= 0 valor em ponto flutuante maior ou igual a 0, podendo ser restringido a 2 ou 3 casas decimais</td>
   </tr>
 </table>
 
 ## 2 - Conjunto de Relacionamentos
 
-### 2.1 - Relacionamento
+### 2.1 - Segue
 
-<u>Descrição:</u> Loairoaisjdokasdkjalskjdalksjdalksjdlaksjdlaksjdlakslaksjdlaksjdlaksjdlaksjdlaksjdlaksjdalksdjalksjdalksjd
-askaposdasd
-asjkdasda
-sdjasd
-asjdas
-dasasdasd
+<u>Descrição:</u> Relacionamento entre as entidades Produto e Modelo, onde uma instancia de Produto deve estar relacionada à uma instancia de Modelo e somente 1, e uma instancia de Modelo pode estar relacionada com nenhuma ou com várias instancias de Produto.
+
+Produto segue um modelo.
+
+<u>Atributos:</u>
+
+Sem atributos específicos.
+
+### 2.2 - Descreve
+
+<u>Descrição:</u>
+Relacionamento entre as entidades Modelo e Descrição, onde uma instância de Modelo deve estar relacionada a uma e somente uma instância de Descrição, e uma instância de Descrição deve estar relacionada a uma e somente uma instância de Modelo.
+
+Descricao descreve modelo.
+
+<u>Atributos:</u>
+Sem Atributos específicos.
+
+### 2.3 - Pertence
+
+<u>Descrição:</u>
+Relacionamento entre as entidades Produto e Categoria, onde uma instância de Produto deve estar relacionada a pelomenos uma instância de Categoria, e uma instância de Categoria pode estar relacionada a nenhuma ou várias instâncias de Produto.
+
+Produto pertence a Categoria.
+
+<u>Atributos:</u>
+Sem Atributos específicos.
+
+### 2.4 - Subcategoria
+
+<u>Descrição:</u>
+Relacionamento unário da entidade Categoria, uma instância de Categoria pode estar relacionada a nenhuma ou várias instâncias de Categoria.
+
+Categoria é subcategoria de Categoria.
+
+<u>Atributos:</u>
+Sem Atributos específicos.
+
+### 2.5 - Item
+
+<u>Descrição:</u>
+Relacionamento entre as entidades Produto e Pedido, onde uma instância de Produto pode estar relacionado a nenhuma ou várias instâncias de Pedido, e uma instância de Pedido deve estar relacionada a pelo menos uma instância de Produto.
+
+Produto é item de Pedido.
 
 <u>Atributos:</u>
 
@@ -516,34 +542,92 @@ dasasdasd
     <th style="border: 1px solid black;" scope="col">Tipo e formato</th>
     </tr>
   <tr >
-    <td style="border: 1px solid black;" >Nome Atributo</td>
-    <td style="border: 1px solid black;">Descricao</td>
-    <td style="border: 1px solid black;">TIPO cada descricao</td>
+    <td style="border: 1px solid black;" >PRECO_VENDA</td>
+    <td style="border: 1px solid black;">Descreve o preço do produto no momento da venda</td>
+    <td style="border: 1px solid black;">FLOAT >=0 valor de ponto flutuante maior ou igual a 0, pode ser restringido em 2 ou 3 casas decimais</td>
   </tr>
-    <tr >
-    <td style="border: 1px solid black;" >Nome Atributo</td>
-    <td style="border: 1px solid black;">Descricao</td>
-    <td style="border: 1px solid black;">TIPO cada descricao</td>
+  <tr >
+    <td style="border: 1px solid black;" >DESCONTO</td>
+    <td style="border: 1px solid black;">Descreve desconto no preço do produto, caso exista</td>
+    <td style="border: 1px solid black;">FLOAT >=0 valor de ponto flutuante maior ou igual a 0, pode ser restringido em 2 ou 3 casas decimais</td>
   </tr>
-    <tr >
-    <td style="border: 1px solid black;" >Nome Atributo</td>
-    <td style="border: 1px solid black;">Descricao</td>
-    <td style="border: 1px solid black;">TIPO cada descricao</td>
+  <tr >
+    <td style="border: 1px solid black;" >QUANTIDADE</td>
+    <td style="border: 1px solid black;">Descreve a quantidade do produto relacionado a ser inserido no pedido</td>
+    <td style="border: 1px solid black;">INT > 0 valor inteiro maior que 0.</td>
   </tr>
+    
 </table>
 
-### 2.2 - Relacionamento 2
+### 2.6 - Envia
 
 <u>Descrição:</u>
-Loairoaisjdokasdkj alskjdalksjdalksjd laksjdlaksjdlakslaksjdla ksjdlaksjdlaksj dlaksjdlaks jdalksd jalksjdalksjd
-askaposdasd
-asjkdasda
-sdjasd
-asjdas
-dasasdasd
+Relacionamento entre as entidades Transportadora e Pedido, onde uma instância de pedido deve estar relacionado a uma e somente uma instância de Transportadora, e uma instância de Transportadora pode estar relacionada à nenhuma ou várias instâncias de Pedido.
+
+Transportadora envia Pedido.
 
 <u>Atributos:</u>
-Sem Atributos específicos
+Sem Atributos específicos.
+
+### 2.7 - Entrega
+
+<u>Descrição:</u>
+Relacionamento entre as entidades Endereço e Pedido, onde uma instância de pedido deve estar relacionado a uma e somente uma instância de Endereço, e uma instância de Endereço pode estar relacionada à nenhuma ou várias instâncias de Pedido.
+
+Pedido é entregue no Endereço.
+
+<u>Atributos:</u>
+Sem Atributos específicos.
+
+### 2.8 - Cobrança
+
+<u>Descrição:</u>
+Relacionamento entre as entidades Endereço e Pedido, onde uma instância de pedido deve estar relacionado a uma e somente uma instância de Endereço, e uma instância de Endereço pode estar relacionada à nenhuma ou várias instâncias de Pedido.
+
+Pedido é cobrado no Endereço.
+
+<u>Atributos:</u>
+Sem Atributos específicos.
+
+### 2.9 - Tem
+
+<u>Descrição:</u>
+Relacionamento entre as entidades Endereço e Cliente, onde uma instância de Cliente deve estar relacionado a pelo menos uma instãncia de Endereço, e uma instância de Endereço deve estar relacionada à pelomenos uma instância de Cliente.
+
+Cliente tem Endereço.
+
+<u>Atributos:</u>
+Sem Atributos específicos.
+
+### 2.10 - Faz
+
+<u>Descrição:</u>
+Relacionamento entre as entidades Cliente e Pedido, onde uma instância de pedido deve estar relacionado a uma e somente uma instância de Cliente, e uma instância de Cliente pode estar relacionada à nenhuma ou várias instâncias de Pedido.
+
+Cliente faz Pedido.
+
+<u>Atributos:</u>
+Sem Atributos específicos.
+
+### 2.11 - Tem
+
+<u>Descrição:</u>
+Relacionamento entre as entidades Funcionário e Senha, onde uma instância de Senha deve estar relacionado a uma e somente uma instância de Funcionário, e uma instância de Funcionário deve estar relacionada à pelo menos uma instância de Senha.
+
+Funcionário tem Senha.
+
+<u>Atributos:</u>
+Sem Atributos específicos.
+
+### 2.12 - Participa
+
+<u>Descrição:</u>
+Relacionamento entre as entidades Pedido e Conector de Vendas, onde uma instância de Conector de Vendas pode estar relacionada à nenhuma ou várias instâncias de Pedido, e uma instância de Pedido pode estar relacionado a nenhuma ou uma instância de Conector de Vendas.
+
+Conector de Vendas participa do Pedido
+
+<u>Atributos:</u>
+Sem Atributos específicos.
 
 <br/>
 

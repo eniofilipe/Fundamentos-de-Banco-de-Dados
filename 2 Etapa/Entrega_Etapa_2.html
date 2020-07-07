@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Entrega_Etapa_2.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+<link rel="stylesheet" href="file:///home/enio/MEGAsync/CC/Banco%20de%20Dados/2%20Etapa/styles.css" type="text/css">
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<div class="logo-if">
+  <img src="iflogo.png"/>
+</div>
+<div class="title">
+<h1 id="etapa-2---projeto-de-curso">Etapa 2 - Projeto de Curso</h1>
+<h2 id="%C3%AAnio-filipe-miranda-souza">Ênio Filipe Miranda Souza</h2>
+<h3 id="ci%C3%AAncia-da-computa%C3%A7%C3%A3o">Ciência da Computação</h3>
+<h3 id="fundamento-de-banco-de-dados">Fundamento de Banco de Dados</h3>
+<p>Descrição de domínio do Diagrama Entidade-Relacionamento construído na Etapa 1 e mapemanto do DER para Modelo Relacional.</p>
+<p>Links relacionados ao trabalho:</p>
+<p><a href="https://github.com/eniofilipe/Fundamentos-de-Banco-de-Dados/tree/master/2%20Etapa">Repositório da etapa 2 com o mapeamento feito passo-a-passo.</a></p>
+</div>
+<div class="page"/>
+<h2 id="1---conjunto-de-entidades">1 - Conjunto de Entidades</h2>
+<h3 id="11---produto">1.1 - Produto</h3>
+<p><u>Descrição:</u> Representa cada produto e suas características de comercialização.</p>
+<p><u>Atributos:</u></p>
+<table >
+<thead>
+  <tr>
+    <th  scope="col">Nome</th>
+    <th  scope="col">Descrição</th>
+    <th  scope="col">Tipo e formato</th>
+    </tr>
+</thead>
+<tbody>
+    <tr >
+    <td  ><u>COD</u></td>
+    <td >Código de identificação do produto</td>
+    <td >BIGINT > 0, número maior que 0, UNIQUE e NOT_NULL, gerado automaticamente pelo banco</td>
+  </tr>
+  <tr >
+    <td  >NOME</td>
+    <td >Nome do produto</td>
+    <td >VARCHAR(30) cadeia de caracteres com no máximo 30 caracteres</td>
+  </tr>
+    <tr >
+    <td  >CUSTO_PRODUCAO</td>
+    <td >Custo de produção do produto</td>
+    <td >FLOAT >= 0, valor em ponto flutuante maior ou igual a 0, podendo ser restringido a 3 ou 2 casas decimais</td>
+  </tr>
+    <tr >
+    <td  >PRECO</td>
+    <td >Preço do produto</td>
+    <td >FLOAT >= 0, valor em ponto flutuante maior ou igual a 0, podendo ser restringido a 3 ou 2 casas decimais</td>
+  </tr>
+  <tr >
+    <td  >DT_IN_VENDA</td>
+    <td >Data de início de venda do produto</td>
+    <td >DATE OU TIMESTAMPS representação de data. Obs.: Salvar no banco com GMT 0</td>
+  </tr>
+  <tr >
+    <td  >DT_FI_VENDA</td>
+    <td >Data de fim de venda do produto</td>
+    <td >DATE OU TIMESTAMPS representação de data. Obs.: Salvar no banco com GMT 0</td>
+  </tr>
+  </tbody>
+</table>
+</br>
+<div class="page"/>
+<h3 id="12---modelo">1.2 - Modelo</h3>
+<p><u>Descrição:</u> Representa o modelo a ser seguido por determinado produto, especificando seus atributos específicos.</p>
+<p><u>Atributos:</u></p>
+<table >
+  <tr>
+    <th  scope="col">Nome</th>
+    <th  scope="col">Descrição</th>
+    <th  scope="col">Tipo e formato</th>
+    </tr>
+    <tr >
+    <td  ><u>COD</u></td>
+    <td >Código de identificação do modelo</td>
+    <td >BIGINT > 0, número maior que 0, UNIQUE e NOT_NULL, gerado automaticamente pelo banco</td>
+  </tr>
+  <tr >
+    <td  >NOME</td>
+    <td >Nome do modelo</td>
+    <td >VARCHAR(30) cadeia de caracteres com no máximo 30 caracteres</td>
+  </tr>
+  <tr >
+    <td  >COR</td>
+    <td >Decreve a cor referente ao modelo</td>
+    <td >VARCHAR(20) cadeia de caracteres com no máximo 20 caracteres</td>
+  </tr>
+    <tr >
+    <td  >TAM</td>
+    <td >Descreve o tamanho em milímetros referente ao modelo</td>
+    <td >BIGINT > 0 número inteiro maior que 0</td>
+  </tr>
+    <tr >
+    <td  >PESO</td>
+    <td >Descreve o peso em gramas referente ao modelo</td>
+    <td >BIGINT > 0, número inteiro maior que 0</td>
+  </tr>
+  <tr >
+    <td  >LOCAL_FABRICACAO</td>
+    <td >Decreve o local de fabricação do modelo</td>
+    <td >VARCHAR(10) cadeia de caracteres com no máximo 10 caracteres, restrito à "ASIA", "AMERICA", "EUROPA", "OCEANIA" ou "AFRICA"</td>
+  </tr>
+</table>
+<div class="page"/>
+<h3 id="13---descri%C3%A7%C3%A3o">1.3 - Descrição</h3>
+<p><u>Descrição:</u> Representa a descrição de cada modelo, podendo ser em vários idiomas.</p>
+<p><u>Atributos:</u></p>
+<table >
+  <tr>
+    <th  scope="col">Nome</th>
+    <th  scope="col">Descrição</th>
+    <th  scope="col">Tipo e formato</th>
+    </tr>
+    <tr >
+    <td  ><u>COD</u></td>
+    <td >Código de identificação da descrição</td>
+    <td >BIGINT > 0, número maior que 0, UNIQUE e NOT_NULL, gerado automaticamente pelo banco</td>
+  </tr>
+  <tr >
+    <td  >TEXTO</td>
+    <td >Conteúdo da descrição</td>
+    <td >VARCHAR(300) cadeia de caracteres com no máximo 300 caracteres</td>
+  </tr>
+  <tr >
+    <td  >IDIOMA</td>
+    <td >Descreve um ou mais idiomas em que a descrição pode ser vista pelo usuário.</td>
+    <td >CHAR(2) cadeia de caracteres com 2 caracteres - MULTIVALORADO</td>
+  </tr>  
+</table>
+<h3 id="14---categoria">1.4 - Categoria</h3>
+<p><u>Descrição:</u> Representa categorias em que os produtos podem pertencer e serem organizados.</p>
+<p><u>Atributos:</u></p>
+<table >
+  <tr>
+    <th  scope="col">Nome</th>
+    <th  scope="col">Descrição</th>
+    <th  scope="col">Tipo e formato</th>
+    </tr>
+    <tr >
+    <td  ><u>COD</u></td>
+    <td >Código de identificação da categoria</td>
+    <td >BIGINT > 0, número maior que 0, UNIQUE e NOT_NULL, gerado automaticamente pelo banco</td>
+  </tr>
+  <tr >
+    <td >NOME</td>
+    <td >Nome da categoria</td>
+    <td >VARCHAR(30) cadeia de caracteres com no máximo 30 caracteres</td>
+  </tr>
+</table>
+<div class="page"/>
+<h3 id="15---transportadora">1.5 - Transportadora</h3>
+<p><u>Descrição:</u> Representa as transportadoras que podem fazer entregas das vendas aos clientes.</p>
+<p><u>Atributos:</u></p>
+<table >
+  <tr>
+    <th  scope="col">Nome</th>
+    <th  scope="col">Descrição</th>
+    <th  scope="col">Tipo e formato</th>
+    </tr>
+    <tr >
+    <td  ><u>COD</u></td>
+    <td >Código de identificação da transportadora</td>
+    <td >BIGINT > 0, número maior que 0, UNIQUE e NOT_NULL, gerado automaticamente pelo banco</td>
+  </tr>
+  <tr >
+    <td  >NOME</td>
+    <td >Nome da transportadora</td>
+    <td >VARCHAR(30) cadeia de caracteres com no máximo 30 caracteres</td>
+  </tr>
+  <tr >
+    <td  >TAXA_MIN</td>
+    <td >Decreve o valor mínimo de total de venda para que a transportadora esteja apta a entregar a venda.</td>
+    <td >FLOAT >= 0 valor em ponto flutuante maior ou igual a 0, podendo ser restringido a 2 ou 3 casas decimais </td>
+  </tr>
+    <tr >
+    <td  >TAXA_PRODUTO</td>
+    <td >Descreve a taxa que cada transportadora cobra por produto na venda</td>
+    <td >FLOAT >= 0 valor em ponto flutuante maior ou igual a 0, podendo ser restringido a 2 ou 3 casas decimais </td>
+  </tr>
+</table>
+<h3 id="16---funcion%C3%A1rio">1.6 - Funcionário</h3>
+<p><u>Descrição:</u> Representa cada funcionário que pode realizar uma venda e seus dados principais.</p>
+<p><u>Atributos:</u></p>
+<table >
+  <tr>
+    <th  scope="col">Nome</th>
+    <th  scope="col">Descrição</th>
+    <th  scope="col">Tipo e formato</th>
+    </tr>
+    <tr >
+    <td  ><u>COD</u></td>
+    <td >Código de identificação do Funcionário</td>
+    <td >BIGINT > 0, número maior que 0, UNIQUE e NOT_NULL, gerado automaticamente pelo banco</td>
+  </tr>
+  <tr >
+    <td >GENERO</td>
+    <td >Descreve o gênero ao qual cada funcionário se identifica</td>
+    <td >VARCHAR(30) cadeia de caracteres com no máximo 30 caracteres</td>
+  </tr>
+    <tr >
+    <td  >DT_CONTR</td>
+    <td >Descreve a data de contratação do funcionário</td>
+    <td >DATE OU TIMESTAMPS representação de data. Obs.: Salvar no banco com GMT 0</td>
+  </tr>
+  <tr >
+    <td  >DT_NASC</td>
+    <td >Descreve a data de nascimento do funcionário</td>
+    <td >DATE OU TIMESTAMPS representação de data. Obs.: Salvar no banco com GMT 0</td>
+  </tr>
+</table>
+<h3 id="17---senha">1.7 - Senha</h3>
+<p><u>Descrição:</u> Representa as senhas que os funcionários podem ter cadastradas no sistema.</p>
+<p><u>Atributos:</u></p>
+<table >
+  <tr>
+    <th  scope="col">Nome</th>
+    <th  scope="col">Descrição</th>
+    <th  scope="col">Tipo e formato</th>
+    </tr>
+    <tr >
+    <td  ><u>COD</u></td>
+    <td >Código de identificação da Senha</td>
+    <td >BIGINT > 0, número maior que 0, UNIQUE e NOT_NULL, gerado automaticamente pelo banco</td>
+  </tr>
+  <tr >
+    <td  >SENHA</td>
+    <td >Senha do funcionário</td>
+    <td >VARCHAR(30) cadeia de caracteres com no mínimo 7 e no máximo 30 caracteres</td>
+  </tr>
+</table>
+<h3 id="18---conecvenda">1.8 - Conec_Venda</h3>
+<p><u>Descrição:</u> Conector de venda, Relacionamento Agregado, representa a uma sessão do funcionário que o permite participar de uma venda.</p>
+<p><u>Atributos:</u></p>
+<table >
+  <tr>
+    <th  scope="col">Nome</th>
+    <th  scope="col">Descrição</th>
+    <th  scope="col">Tipo e formato</th>
+    </tr>
+    <tr >
+    <td  ><u>COD</u></td>
+    <td >Código de identificação do conector</td>
+    <td >BIGINT > 0, número maior que 0, UNIQUE e NOT_NULL, gerado automaticamente pelo banco</td>
+  </tr>
+  <tr >
+    <td  >BONUS</td>
+    <td >Decreve o bônus que o Funcionário pode receber.</td>
+    <td >FLOAT >=0 valor em ponto flutuante maior ou igual a 0, podendo ser restringido a 2 ou 3 casas decimais.</td>
+  </tr>
+  <tr >
+    <td  >COMISSAO</td>
+    <td >Decreve a comissão que o Funcionário pode receber pela venda.</td>
+    <td >FLOAT >=0 valor em ponto flutuante maior ou igual a 0, podendo ser restringido a 2 ou 3 casas decimais.</td>
+  </tr>
+</table>
+<h3 id="19---cliente">1.9 - Cliente</h3>
+<p><u>Descrição:</u> Representa o cliente que pode fazer compras e seus dados específicos.</p>
+<p><u>Atributos:</u></p>
+<div class="page"/>
+<table >
+  <tr>
+    <th  scope="col">Nome</th>
+    <th  scope="col">Descrição</th>
+    <th  scope="col">Tipo e formato</th>
+    </tr>
+    <tr >
+    <td  ><u>CADASTRO</u></td>
+    <td >Código de cadastro do cliente</td>
+    <td >BIGINT > 0, número maior que 0, UNIQUE e NOT_NULL, gerado automaticamente pelo banco</td>
+  </tr>
+  <tr >
+    <td  >NOME</td>
+    <td >Nome do cliente</td>
+    <td >VARCHAR(100) cadeia de caracteres com no máximo 100 caracteres, composto em PRIMEIRO_NOME, NOME_MEIO E SOBRENOME</td>
+  </tr>
+  <tr >
+    <td  >SENHA</td>
+    <td >Senha do cliente</td>
+    <td >VARCHAR(30) NOT_NULL cadeia de caracteres com no mínimo 7 e no máximo 30 caracteres</td>
+  </tr>
+    <tr >
+    <td  >TRATAMENTO</td>
+    <td >Descreve a forma de tratamento em que o cliente gostaria de ser chamado</td>
+    <td >VARCHAR(30) cadeia de caracteres com no máximo 30 caracteres</td>
+  </tr>
+</table>
+<h3 id="110---endere%C3%A7o">1.10 - Endereço</h3>
+<p><u>Descrição:</u> Representa os endereços dos clientes.</p>
+<p><u>Atributos:</u></p>
+<table >
+  <tr>
+    <th  scope="col">Nome</th>
+    <th  scope="col">Descrição</th>
+    <th  scope="col">Tipo e formato</th>
+    </tr>
+    <tr >
+    <td  ><u>COD</u></td>
+    <td >Código de identificação do endereço</td>
+    <td >BIGINT > 0, número maior que 0, UNIQUE e NOT_NULL, gerado automaticamente pelo banco</td>
+  </tr>
+  <tr >
+    <td >RUA</td>
+    <td >Descreve a rua do endereço</td>
+    <td >VARCHAR(30) cadeia de caracteres com no máximo 30 caracteres</td>
+  </tr>
+  <tr >
+    <td  >NUMERO</td>
+    <td >Decreve o número do endereço</td>
+    <td >INT > 0 valor inteiro maior que 0</td>
+  </tr>
+  <tr >
+    <td >CIDADE</td>
+    <td >Descreve a cidade em que o endereço está</td>
+    <td >VARCHAR(30) cadeia de caracteres com no máximo 30 caracteres</td>
+  </tr>
+  <tr >
+    <td >ESTADO</td>
+    <td >Descreve o estado(Unidade Federativa) em que o endereço está</td>
+    <td >VARCHAR(30) cadeia de caracteres com no máximo 30 caracteres</td>
+  </tr>
+  <tr >
+    <td >PAIS</td>
+    <td >Descreve o país em que o endereço está</td>
+    <td >VARCHAR(30) cadeia de caracteres com no máximo 30 caracteres</td>
+  </tr>
+  <tr >
+    <td >CEP</td>
+    <td >Descreve o código postal do endereço</td>
+    <td >VARCHAR(30) cadeia de caracteres com no máximo 30 caracteres</td>
+  </tr>  
+  </tr>
+</table>
+<h3 id="111---pedido">1.11 - Pedido</h3>
+<p><u>Descrição:</u> Representa cada pedido que pode ser feito pelo cliente e seus atributos.</p>
+<p><u>Atributos:</u></p>
+<table >
+  <tr>
+    <th  scope="col">Nome</th>
+    <th  scope="col">Descrição</th>
+    <th  scope="col">Tipo e formato</th>
+    </tr>
+    <tr >
+    <td  ><u>COD</u></td>
+    <td >Código de identificação do pedido</td>
+    <td >BIGINT > 0, número maior que 0, UNIQUE e NOT_NULL, gerado automaticamente pelo banco</td>
+  </tr>
+  <tr >
+    <td  >TOTAL</td>
+    <td >Descreve a soma dos valores dos produtos do pedido</td>
+    <td >FLOAT >= 0 valor em ponto flutuante maior ou igual a 0, derivado da soma dos preços dos produtos relacionados ao pedido</td>
+  </tr>
+  <tr >
+    <td  >IMPOSTO</td>
+    <td >Decreve porcentagem de imposto que pode incidir sobre o pedido</td>
+    <td >FLOAT >= 0 valor em ponto flutuante maior ou igual a 0</td>
+  </tr>
+    <tr >
+    <td  >CONTA_CLIENTE</td>
+    <td >Descreve a conta do cliente</td>
+    <td >VARCHAR(30) cadeia de caracteres com no máximo 30 caracteres</td>
+  </tr>
+    <tr >
+    <td  >COD_CARTAO</td>
+    <td >Descreve o código do cartão do cliente</td>
+    <td >VARCHAR(20)> cadeia de caracteres que representa o código do cartão(16 primeiros caracteres) e a data de expiração(4 ultimos caracteres) ex: "11118888222255550725"</td>
+  </tr>
+  <tr >
+    <td  >COD_TRANSACAO</td>
+    <td >Descreve o código de transação do pagamento do pedido</td>
+    <td >STRING</td>
+  </tr>
+  <tr >
+    <td  >DT_EFETIVADO</td>
+    <td >Descreve a data em que o pedido foi efetivado</td>
+    <td >DATE OU TIMESTAMPS representação de data. Obs.: Salvar no banco com GMT 0</td>
+  </tr>
+  <tr >
+    <td  >DT_ENVIO</td>
+    <td >Descreve a data de envio do pedido</td>
+    <td >DATE OU TIMESTAMPS representação de data. Obs.: Salvar no banco com GMT 0</td>
+  </tr>
+  <tr >
+    <td  >DT_ENTREGA</td>
+    <td >Descreve a data que o pedido foi entregue ao cliente</td>
+    <td >DATE OU TIMESTAMPS representação de data. Obs.: Salvar no banco com GMT 0</td>
+  </tr>
+</table>
+<h3 id="112---america">1.12 - America</h3>
+<p><u>Descrição:</u> Entidade especializada da entidade cliente, representa pedidos vendidos pro mercado americano.</p>
+<p><u>Atributos:</u></p>
+<table >
+  <tr>
+    <th  scope="col">Nome</th>
+    <th  scope="col">Descrição</th>
+    <th  scope="col">Tipo e formato</th>
+    </tr>
+    <tr >
+    <td  >DESCONTO_FRETE</td>
+    <td >Descreve o valor de desconto caso o pedido se encaixe nas específicações de desconto.</td>
+    <td >FLOAT >= 0 valor em ponto flutuante maior ou igual a 0, podendo ser restringido a 2 ou 3 casas decimais</td>
+  </tr>
+</table>
+<h3 id="113---europa">1.13 - Europa</h3>
+<p><u>Descrição:</u> Entidade especializada da entidade cliente, representa pedidos vendidos pro mercado europeu.<br>
+ou várias<br>
+<u>Atributos:</u></p>
+<table >
+  <tr>
+    <th  scope="col">Nome</th>
+    <th  scope="col">Descrição</th>
+    <th  scope="col">Tipo e formato</th>
+    </tr>
+    <tr >
+    <td  >IMPOSTO_EUROPEU</td>
+    <td >Descreve o valor do imposto a ser aplicado caso alugum ou vários produtos se encaixem em alguma alínea do mercado europeu</td>
+    <td >FLOAT >= 0 valor em ponto flutuante maior ou igual a 0, podendo ser restringido a 2 ou 3 casas decimais</td>
+  </tr>
+</table>
+<h2 id="2---conjunto-de-relacionamentos">2 - Conjunto de Relacionamentos</h2>
+<h3 id="21---segue">2.1 - Segue</h3>
+<p><u>Descrição:</u> Relacionamento entre as entidades Produto e Modelo, onde uma instancia de Produto deve estar relacionada à uma instancia de Modelo e somente 1, e uma instancia de Modelo pode estar relacionada com nenhuma ou com várias instancias de Produto.</p>
+<p><i>Produto segue um modelo.</i></p>
+<p><u>Atributos:</u></p>
+<p>Sem atributos específicos.</p>
+<h3 id="22---descreve">2.2 - Descreve</h3>
+<p><u>Descrição:</u><br>
+Relacionamento entre as entidades Modelo e Descrição, onde uma instância de Modelo deve estar relacionada a uma e somente uma instância de Descrição, e uma instância de Descrição deve estar relacionada a uma e somente uma instância de Modelo.</p>
+<p><i>Descricao descreve modelo.</i></p>
+<p><u>Atributos:</u><br>
+Sem Atributos específicos.</p>
+<h3 id="23---pertence">2.3 - Pertence</h3>
+<p><u>Descrição:</u><br>
+Relacionamento entre as entidades Produto e Categoria, onde uma instância de Produto deve estar relacionada a pelomenos uma instância de Categoria, e uma instância de Categoria pode estar relacionada a nenhuma ou várias instâncias de Produto.</p>
+<p><i>Produto pertence a Categoria.</i></p>
+<p><u>Atributos:</u><br>
+Sem Atributos específicos.</p>
+<h3 id="24---subcategoria">2.4 - Subcategoria</h3>
+<p><u>Descrição:</u><br>
+Relacionamento unário da entidade Categoria, uma instância de Categoria pode estar relacionada a nenhuma ou várias instâncias de Categoria.</p>
+<p><i>Categoria é subcategoria de Categoria.</i></p>
+<p><u>Atributos:</u><br>
+Sem Atributos específicos.</p>
+<h3 id="25---item">2.5 - Item</h3>
+<p><u>Descrição:</u><br>
+Relacionamento entre as entidades Produto e Pedido, onde uma instância de Produto pode estar relacionado a nenhuma ou várias instâncias de Pedido, e uma instância de Pedido deve estar relacionada a pelo menos uma instância de Produto.</p>
+<p><i>Produto é item de Pedido.</i></p>
+<p><u>Atributos:</u></p>
+<table >
+  <tr>
+    <th  scope="col">Nome</th>
+    <th  scope="col">Descrição</th>
+    <th  scope="col">Tipo e formato</th>
+    </tr>
+  <tr >
+    <td  >PRECO_VENDA</td>
+    <td >Descreve o preço do produto no momento da venda</td>
+    <td >FLOAT >=0 valor de ponto flutuante maior ou igual a 0, pode ser restringido em 2 ou 3 casas decimais</td>
+  </tr>
+  <tr >
+    <td  >DESCONTO</td>
+    <td >Descreve desconto no preço do produto, caso exista</td>
+    <td >FLOAT >=0 valor de ponto flutuante maior ou igual a 0, pode ser restringido em 2 ou 3 casas decimais</td>
+  </tr>
+  <tr >
+    <td  >QUANTIDADE</td>
+    <td >Descreve a quantidade do produto relacionado a ser inserido no pedido</td>
+    <td >INT > 0 valor inteiro maior que 0.</td>
+  </tr>
+</table>
+<h3 id="26---envia">2.6 - Envia</h3>
+<p><u>Descrição:</u><br>
+Relacionamento entre as entidades Transportadora e Pedido, onde uma instância de pedido deve estar relacionado a uma e somente uma instância de Transportadora, e uma instância de Transportadora pode estar relacionada à nenhuma ou várias instâncias de Pedido.</p>
+<p><i>Transportadora envia Pedido.</i></p>
+<p><u>Atributos:</u><br>
+Sem Atributos específicos.</p>
+<h3 id="27---entrega">2.7 - Entrega</h3>
+<p><u>Descrição:</u><br>
+Relacionamento entre as entidades Endereço e Pedido, onde uma instância de pedido deve estar relacionado a uma e somente uma instância de Endereço, e uma instância de Endereço pode estar relacionada à nenhuma ou várias instâncias de Pedido.</p>
+<p><i>Pedido é entregue no Endereço.</i></p>
+<p><u>Atributos:</u><br>
+Sem Atributos específicos.</p>
+<h3 id="28---cobran%C3%A7a">2.8 - Cobrança</h3>
+<p><u>Descrição:</u><br>
+Relacionamento entre as entidades Endereço e Pedido, onde uma instância de pedido deve estar relacionado a uma e somente uma instância de Endereço, e uma instância de Endereço pode estar relacionada à nenhuma ou várias instâncias de Pedido.</p>
+<p><i>Pedido é cobrado no Endereço.</i></p>
+<p><u>Atributos:</u><br>
+Sem Atributos específicos.</p>
+<h3 id="29---tem">2.9 - Tem</h3>
+<p><u>Descrição:</u><br>
+Relacionamento entre as entidades Endereço e Cliente, onde uma instância de Cliente deve estar relacionado a pelo menos uma instãncia de Endereço, e uma instância de Endereço deve estar relacionada à pelomenos uma instância de Cliente.</p>
+<p><i>Cliente tem Endereço.</i></p>
+<p><u>Atributos:</u><br>
+Sem Atributos específicos.</p>
+<h3 id="210---faz">2.10 - Faz</h3>
+<p><u>Descrição:</u><br>
+Relacionamento entre as entidades Cliente e Pedido, onde uma instância de pedido deve estar relacionado a uma e somente uma instância de Cliente, e uma instância de Cliente pode estar relacionada à nenhuma ou várias instâncias de Pedido.</p>
+<p><i>Cliente faz Pedido.</i></p>
+<p><u>Atributos:</u><br>
+Sem Atributos específicos.</p>
+<h3 id="211---tem">2.11 - Tem</h3>
+<p><u>Descrição:</u><br>
+Relacionamento entre as entidades Funcionário e Senha, onde uma instância de Senha deve estar relacionado a uma e somente uma instância de Funcionário, e uma instância de Funcionário deve estar relacionada à pelo menos uma instância de Senha.</p>
+<p><i>Funcionário tem Senha.</i></p>
+<p><u>Atributos:</u><br>
+Sem Atributos específicos.</p>
+<h3 id="212---participa">2.12 - Participa</h3>
+<p><u>Descrição:</u><br>
+Relacionamento entre as entidades Pedido e Conector de Vendas, onde uma instância de Conector de Vendas pode estar relacionada à nenhuma ou várias instâncias de Pedido, e uma instância de Pedido pode estar relacionado a nenhuma ou uma instância de Conector de Vendas.</p>
+<p><i>Conector de Vendas participa do Pedido</i></p>
+<p><u>Atributos:</u><br>
+Sem Atributos específicos.</p>
+<div class="page"/>
+<h2 id="3---der-corrigido">3 - DER Corrigido</h2>
+<img class="mapeamento-final" src="DER_Corrigido.png"/>
+<div class="page"/>
+<h2 id="4---mapeamento-final-em-modelo-relacional">4 - Mapeamento final em modelo relacional</h2>
+<img class="mapeamento-final" src="Final_10.svg"/>
+<div class="page"/>
+<h3 id="41---algumas-considera%C3%A7%C3%B5es-sobre-o-mapeamento">4.1 - Algumas considerações sobre o mapeamento</h3>
+<h4 id="411---mapeamento-da-abstra%C3%A7%C3%A3o-de-generaliza%C3%A7%C3%A3o-da-entidade-pedido">4.1.1 - Mapeamento da Abstração de Generalização da entidade Pedido</h4>
+<p>Foi escolhido o procedimento padrão 4, pois os são poucos os atributos das Entidades Específicas que também não têm relacionamentos específicos. Sendo identificadas pelo atributo &quot;MERCADO&quot;.</p>
+<h4 id="412---mapeamento-do-atributo-multivalorado-idioma">4.1.2 - Mapeamento do Atributo Multivalorado IDIOMA</h4>
+<p>Como não é conhecido a composição desse atributo, podendo ele ser diversos, foi escolhido mapear para<br>
+uma relação específica, sendo identificada pelo valor do atributo idioma e da chave da descrição que faz parte.</p>
+<h4 id="413---mapeamento-do-atributo-composto-nome">4.1.3 - Mapeamento do Atributo Composto NOME</h4>
+<p>Como é conhecida a composição do atributo, escolheu - se inserir os atributos da sua composição à entidade Cliente.</p>
+<div class="page"/>
+
+</body>
+</html>
