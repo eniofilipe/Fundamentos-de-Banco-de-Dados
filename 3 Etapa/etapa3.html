@@ -5,15 +5,14 @@
 <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
 
 <style>
-/* Tomorrow Night Blue Theme */
+/* Tomorrow Theme */
 /* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
 /* Original theme - https://github.com/chriskempson/tomorrow-theme */
-/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
 
 /* Tomorrow Comment */
 .hljs-comment,
 .hljs-quote {
-  color: #7285b7;
+	color: #8e908c;
 }
 
 /* Tomorrow Red */
@@ -25,7 +24,7 @@
 .hljs-selector-class,
 .hljs-regexp,
 .hljs-deletion {
-  color: #ff9da4;
+	color: #c82829;
 }
 
 /* Tomorrow Orange */
@@ -37,12 +36,12 @@
 .hljs-params,
 .hljs-meta,
 .hljs-link {
-  color: #ffc58f;
+	color: #f5871f;
 }
 
 /* Tomorrow Yellow */
 .hljs-attribute {
-  color: #ffeead;
+	color: #eab700;
 }
 
 /* Tomorrow Green */
@@ -50,37 +49,35 @@
 .hljs-symbol,
 .hljs-bullet,
 .hljs-addition {
-  color: #d1f1a9;
+	color: #718c00;
 }
 
 /* Tomorrow Blue */
 .hljs-title,
 .hljs-section {
-  color: #bbdaff;
+	color: #4271ae;
 }
 
 /* Tomorrow Purple */
 .hljs-keyword,
 .hljs-selector-tag {
-  color: #ebbbff;
+	color: #8959a8;
 }
 
 .hljs {
-  display: block;
-  overflow-x: auto;
-  background: #002451;
-  color: white;
-  padding: 0.5em;
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
 }
 
 .hljs-emphasis {
-  font-style: italic;
+	font-style: italic;
 }
 
 .hljs-strong {
-  font-weight: bold;
+	font-weight: bold;
 }
-
 </style>
 <link rel="stylesheet" href="file:///home/enio/Documentos/CC/Banco%20de%20Dados/3%20Etapa/styles.css" type="text/css">
 <script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
@@ -102,12 +99,12 @@
 <h2 id="%C3%AAnio-filipe-miranda-souza">Ênio Filipe Miranda Souza</h2>
 <h3 id="ci%C3%AAncia-da-computa%C3%A7%C3%A3o">Ciência da Computação</h3>
 <h3 id="fundamento-de-banco-de-dados">Fundamento de Banco de Dados</h3>
-<p>Descrição de domínio do Diagrama Entidade-Relacionamento construído na Etapa 1 e mapemanto do DER para Modelo Relacional.</p>
+<p>Revisão do modelo de esquema relacional e normalização do esquema relacional</p>
 <p>Links relacionados ao trabalho:</p>
-<p><a href="https://github.com/eniofilipe/Fundamentos-de-Banco-de-Dados/tree/master/2%20Etapa">Repositório da etapa 2 com o mapeamento feito passo-a-passo.</a></p>
+<p><a href="https://github.com/eniofilipe/Fundamentos-de-Banco-de-Dados/tree/master/3%20Etapa">Repositório da etapa 3 com o mapeamento feito passo-a-passo.</a></p>
 </div>
 <div class="page"/>
-<h2 id="1---conjunto-de-entidades">1 - Conjunto de Entidades</h2>
+<h2 id="1---conjunto-de-rela%C3%A7%C3%B5es-do-banco-de-dados">1 - Conjunto de Relações do Banco de Dados</h2>
 <h3 id="11---produto">1.1 - Produto</h3>
 <table >
 <tbody>
@@ -119,6 +116,7 @@
     <p>
       (COD) -> NOME </br>
       (COD) -> PRECO </br>
+      (COD) -> CUSTO_PRODUCAO </br>
       (COD) -> DT_IN_VENDA </br>
       (COD) -> DT_FI_VENDA </br>
       (COD) -> COD_MODELO </br>
@@ -166,18 +164,16 @@
   </tbody>
 </table>
 </br>
-<div class="page"/>
 <h3 id="13---descricao">1.3 - Descricao</h3>
 <table >
 <tbody>
     <tr >
-    <td colspan=7>DESCRICAO ( <u>COD</u>, TEXTO*, <span class="fk">COD_MODELO</span> )
+    <td colspan=7>DESCRICAO ( <u>COD</u>, TEXTO*, <span class="fk pk">COD_MODELO</span> )
 </td>
   </tr>
   <tr >
     <td colspan=7>
     <p>
-      (COD_MODELO) -> COD </br>
 (COD, COD_MODELO) -> TEXTO</br>
       </p>
     </td>
@@ -194,11 +190,12 @@
   </tbody>
 </table>
 </br>
+<div class="page"/>
 <h3 id="14---idioma">1.4 - Idioma</h3>
 <table >
 <tbody>
     <tr >
-    <td colspan=7>IDIOMA (<u>IDIOMA</u>, <span class="fk">COD_DESCRICAO</span>)</td>
+    <td colspan=7>IDIOMA (<u>IDIOMA</u>, <span class="fk pk">COD_DESCRICAO</span>)</td>
   </tr>
   <tr >
     <td colspan=7>
@@ -353,7 +350,6 @@
   </tbody>
 </table>
 </br>
-<div class="page"/>
 <h3 id="110---senha">1.10 - Senha</h3>
 <table >
 <tbody>
@@ -380,6 +376,7 @@
   </tbody>
 </table>
 </br>
+<div class="page"/>
 <h3 id="111---conecvendas">1.11 - Conec_Vendas</h3>
 <table >
 <tbody>
@@ -389,8 +386,8 @@
   <tr >
     <td colspan=7>
     <p>
-      (COD) ->  BONUS </br>
-(COD) -> COMISSAO</br>
+      (COD_FUNCIONARIO, COD_SENHA) ->  BONUS </br>
+(COD_FUNCIONARIO, COD_SENHA) -> COMISSAO</br>
 (COD) -> COD_FUNCIONARIO</br>
 (COD) -> COD_SENHA</br>
     </td>
@@ -398,11 +395,17 @@
   <tr >
     <td>1 FN ✔</td>
     <td>2 FN ✔</td>
-    <td>3 FN ✔</td>
+    <td>3 FN ✖</td>
     <td>2 FN G ✔</td>
-    <td>3 FN G ✔</td>
-    <td>BCNA ✔</td>
-    <td>4 FN ✔</td>
+    <td>3 FN G ✖</td>
+    <td>BCNA ✖</td>
+    <td>4 FN ✖</td>
+  </tr>
+  <tr >
+    <td colspan=7>
+    CONEC_VENDAS ( <u>COD</u> <span class="fk sk">COD_FUNCIONARIO</span>, <span class="fk sk">COD_SENHA</span> )</br>
+    CONEC_VENDAS_FUNC (<span class="fk pk">COD_FUNCIONARIO</span>, <span class="fk pk">COD_SENHA</span>, BONUS , COMISSAO) </br>
+</td>
   </tr>
   </tbody>
 </table>
@@ -530,20 +533,21 @@
   </tr>
   <tr >
     <td colspan=7>
-    PEDIDO ( <u>COD</u>, IMPOSTO, COD_TRANSACAO, DT_EFETIVADO, <span class="fk">COD_CLIENTE*</span>,  <span class="fk">COD_CONEC_VENDAS</span>)
-<p>PEDIDO_CLIENTE ( <u>COD_CLIENTE</u>, CONTA_CLIENTE, <u>COD_CARTAO</u>, <span class="fk">COD_END_COBRANCA*</span> )</p>
-<p>ENTREGA_PEDIDO (<u>COD</u>, <span class="fk pk">COD_TRANSPOSRTADORA</span>, <span class="fk pk">COD_END_ENTREGA</span>, DT_ENVIO, DT_ENTREGA)</p>
-<p>PEDIDO_MERCADO ( <u>COD</u>, <u>MERCADO</u>, <u>TOTAL</u>, DESCONTO_FRETE, IMPOSTO_EUROPEU )</p>
+    PEDIDO ( <u>COD</u>, IMPOSTO, COD_TRANSACAO, DT_EFETIVADO, <span class="fk">COD_CLIENTE*</span>,  <span class="fk">COD_CONEC_VENDAS</span>)</br>
+PEDIDO_CLIENTE ( <u>COD_CLIENTE</u>, <u>COD_CARTAO</u>, <span class="fk">COD_END_COBRANCA\*</span> )</br>
+CONTA_CLIENTE ( <u>COD_CLIENTE</u>, <u>CONTA_CLIENTE</u>)</br>
+ENTREGA_PEDIDO (<u>COD</u>, <span class="fk pk">COD_TRANSPOSRTADORA</span>, <span class="fk pk">COD_END_ENTREGA</span>, DT_ENVIO, DT_ENTREGA)</br>
+PEDIDO_MERCADO ( <u>COD</u>, <u>MERCADO</u>, <u>TOTAL</u>, DESCONTO_FRETE, IMPOSTO_EUROPEU )</br>
 </td>
   </tr>
   </tbody>
 </table>
 </br>
 <div class="page"/>
-<h2 id="3---der-corrigido-revisado">3 - DER Corrigido revisado</h2>
+<h2 id="2---der-corrigido-revisado">2 - DER Corrigido revisado</h2>
 <img class="mapeamento-final" src="DER_Corrigido_2.png"/>
 <div class="page"/>
-<h2 id="4---mapeamento-esquema-relacional-revisado">4 - Mapeamento esquema relacional revisado</h2>
+<h2 id="3---mapeamento-esquema-relacional-revisado">3 - Mapeamento esquema relacional revisado</h2>
 <img class="mapeamento-final" src="Final_11.svg"/>
 <div class="page"/>
 

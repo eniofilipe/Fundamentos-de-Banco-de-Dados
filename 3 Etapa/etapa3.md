@@ -20,7 +20,7 @@ Links relacionados ao trabalho:
 </div>
 <div class="page"/>
 
-## 1 - Conjunto de Entidades
+## 1 - Conjunto de Relações do Banco de Dados
 
 ### 1.1 - Produto
 
@@ -34,6 +34,7 @@ Links relacionados ao trabalho:
     <p>
       (COD) -> NOME </br>
       (COD) -> PRECO </br>
+      (COD) -> CUSTO_PRODUCAO </br>
       (COD) -> DT_IN_VENDA </br>
       (COD) -> DT_FI_VENDA </br>
       (COD) -> COD_MODELO </br>
@@ -92,13 +93,12 @@ Links relacionados ao trabalho:
 <table >
 <tbody>
     <tr >
-    <td colspan=7>DESCRICAO ( <u>COD</u>, TEXTO*, <span class="fk">COD_MODELO</span> )
+    <td colspan=7>DESCRICAO ( <u>COD</u>, TEXTO*, <span class="fk pk">COD_MODELO</span> )
 </td>
   </tr>
   <tr >
     <td colspan=7>
     <p>
-      (COD_MODELO) -> COD </br>
 (COD, COD_MODELO) -> TEXTO</br>
       </p>
     </td>
@@ -124,7 +124,7 @@ Links relacionados ao trabalho:
 <table >
 <tbody>
     <tr >
-    <td colspan=7>IDIOMA (<u>IDIOMA</u>, <span class="fk">COD_DESCRICAO</span>)</td>
+    <td colspan=7>IDIOMA (<u>IDIOMA</u>, <span class="fk pk">COD_DESCRICAO</span>)</td>
   </tr>
   <tr >
     <td colspan=7>
@@ -337,8 +337,8 @@ Links relacionados ao trabalho:
   <tr >
     <td colspan=7>
     <p>
-      (COD) ->  BONUS </br>
-(COD) -> COMISSAO</br>
+      (COD_FUNCIONARIO, COD_SENHA) ->  BONUS </br>
+(COD_FUNCIONARIO, COD_SENHA) -> COMISSAO</br>
 (COD) -> COD_FUNCIONARIO</br>
 (COD) -> COD_SENHA</br>
     </td>
@@ -346,11 +346,18 @@ Links relacionados ao trabalho:
   <tr >
     <td>1 FN ✔</td>
     <td>2 FN ✔</td>
-    <td>3 FN ✔</td>
+    <td>3 FN ✖</td>
     <td>2 FN G ✔</td>
-    <td>3 FN G ✔</td>
-    <td>BCNA ✔</td>
-    <td>4 FN ✔</td>
+    <td>3 FN G ✖</td>
+    <td>BCNA ✖</td>
+    <td>4 FN ✖</td>
+  </tr>
+  <tr >
+    <td colspan=7>
+    CONEC_VENDAS ( <u>COD</u> <span class="fk sk">COD_FUNCIONARIO</span>, <span class="fk sk">COD_SENHA</span> )</br>
+    CONEC_VENDAS_FUNC (<span class="fk pk">COD_FUNCIONARIO</span>, <span class="fk pk">COD_SENHA</span>, BONUS , COMISSAO) </br>
+
+</td>
   </tr>
   </tbody>
 </table>
@@ -422,8 +429,6 @@ Links relacionados ao trabalho:
 
 </br>
 
-<div class="page"/>
-
 ### 1.14 - Cliente_Tem_Endereco
 
 <table >
@@ -492,7 +497,8 @@ Links relacionados ao trabalho:
   <tr >
     <td colspan=7>
     PEDIDO ( <u>COD</u>, IMPOSTO, COD_TRANSACAO, DT_EFETIVADO, <span class="fk">COD_CLIENTE*</span>,  <span class="fk">COD_CONEC_VENDAS</span>)</br>
-PEDIDO_CLIENTE ( <u>COD_CLIENTE</u>, CONTA_CLIENTE, <u>COD_CARTAO</u>, <span class="fk">COD_END_COBRANCA\*</span> )</br>
+PEDIDO_CLIENTE ( <u>COD_CLIENTE</u>, <u>COD_CARTAO</u>, <span class="fk">COD_END_COBRANCA\*</span> )</br>
+CONTA_CLIENTE ( <u>COD_CLIENTE</u>, <u>CONTA_CLIENTE</u>)</br>
 ENTREGA_PEDIDO (<u>COD</u>, <span class="fk pk">COD_TRANSPOSRTADORA</span>, <span class="fk pk">COD_END_ENTREGA</span>, DT_ENVIO, DT_ENTREGA)</br>
 PEDIDO_MERCADO ( <u>COD</u>, <u>MERCADO</u>, <u>TOTAL</u>, DESCONTO_FRETE, IMPOSTO_EUROPEU )</br>
 </td>
