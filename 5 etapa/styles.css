@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+p,
+a {
+  font-size: 11pt;
+}
+
+.page {
+  page-break-after: always;
+}
+
+/* @page :left {
+  size: landscape;
+}
+
+@page :right {
+  size: landscape;
+} */
+
+.logo-if {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+div.logo-if img {
+  height: 150px;
+}
+
+div.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fk {
+  color: red;
+}
+
+.pk {
+  border-bottom: 1px solid;
+}
+
+.sk {
+  border-bottom: 3px double;
+}
